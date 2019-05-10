@@ -1,0 +1,53 @@
+body {
+  margin-top: 50px;
+  background-color: #3f3d33;
+  font-family: Arial;
+  color: white;
+}
+
+#neokortex-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header-section, #footer-section {
+  margin: auto;
+  width: 70%;
+}
+
+#content-section {
+  margin: auto;
+  width: 60%;
+  border: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #30302d;
+  padding: 5px;
+}
+
+.bubble-section {
+  margin: auto;
+  width: 250px;
+}
+
+.bubbleleftimg {
+  border-left-width: thick;
+  border-left-style: groove;
+  border-left-color: gray;
+}
+
+.bubblerightimg {
+  border-right-width: thick;
+  border-right-style: groove;
+  border-right-color: orange;
+}
+
+.textbar {
+  font-family: Courier New;
+  color: white;
+  background-color: #161615;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
