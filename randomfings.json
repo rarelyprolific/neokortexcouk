@@ -1,0 +1,26 @@
+{
+  "randomFings": [
+    {
+	  "text" : "We have a dream - It might come true. This dream we want to share with you...",
+	  "production" : "Desert Dream",
+	  "releasedBy" : "Kefrens",
+	  "releaseYear" : 1993,
+	  "platform" : "Amiga",
+	  "pouetUrl" : "prod.php?which=1483",
+	  "demozooUrl" : "productions/142",
+	  "youTubeUrl" : "watch?v=jziQBWQxvok"
+	},
+    {
+	  "text" : "Insert disk one into DF0: and disk two into DF1:"
+	},
+	{
+	  "text" : "But anyway: Booze, fall in love and have a mental hangover!!!!!!"
+	},
+	{
+	  "text" : "Hey, little TV-child... Can't you stand the materia floating from your eyes?"
+	},
+	{
+	  "text" : "...And they call these bozos, who conveniently show up, with a fake electronic lightshow..."
+	}
+  ]
+}
