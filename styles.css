@@ -1,8 +1,33 @@
+@font-face {
+  font-family: "TopazPlus a600a1200a4000";
+  src: url(fonts/TopazPlus_a1200_v1.0.ttf);
+}
+
 body {
   margin-top: 50px;
   background-color: #3f3d33;
   font-family: Arial;
   color: white;
+}
+
+pre {
+  font-family: "TopazPlus a600a1200a4000", "Lucida Console", monospace, Monaco;
+  font-size: 12pt;
+  font-weight: normal;
+  color: #000000;
+  background-color: #747470;
+  line-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#asciilogo-section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 5px;
+  width: 830px;
 }
 
 #neokortex-logo {
@@ -11,7 +36,8 @@ body {
   margin-right: auto;
 }
 
-#header-section, #footer-section {
+#header-section,
+#footer-section {
   margin: auto;
   width: 70%;
 }
