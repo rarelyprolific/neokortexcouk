@@ -30,6 +30,7 @@ a {
   border-style: solid;
   background-image: url("img/black-texture.jpg");
   width: 400px;
+  padding: 10px;
 }
 
 #neokortex-logo {
@@ -47,12 +48,21 @@ a {
   text-align: center;
 }
 
-#content-section {
-  margin: auto;
-  width: 60%;
+.column-left {
+  float: left;
+  border-width: 5px;
+}
+
+.column-right {
   color: #000000;
   background-color: #ffffff;
-  padding: 5px;
+  padding: 1px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .textbar {
