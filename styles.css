@@ -19,6 +19,10 @@ pre {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 #asciilogo-section {
   display: block;
   margin-left: auto;
@@ -39,6 +43,7 @@ pre {
 }
 
 #footer-section {
+  background-color: #161615;
   text-align: center;
 }
 
@@ -62,6 +67,8 @@ pre {
 .icon-image {
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
   height: 35px;
 }
 
