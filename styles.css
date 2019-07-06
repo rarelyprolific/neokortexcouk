@@ -4,8 +4,8 @@
 }
 
 body {
-  margin-top: 50px;
-  background-image: url("img/black-texture.jpg");
+  margin-top: 0px;
+  background-color: #000000;
   font-family: Arial;
   color: white;
 }
@@ -24,8 +24,8 @@ pre {
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
-  border-radius: 5px;
-  width: 800px;
+  background-image: url("img/black-texture.jpg");
+  width: 400px;
 }
 
 #neokortex-logo {
@@ -34,10 +34,12 @@ pre {
   margin-right: auto;
 }
 
-#header-section,
+#header-section {
+  width: 100%;
+}
+
 #footer-section {
-  margin: auto;
-  width: 70%;
+  text-align: center;
 }
 
 #content-section {
@@ -45,7 +47,6 @@ pre {
   width: 60%;
   border: 2px;
   border-style: solid;
-  border-radius: 5px;
   background-color: #121213;
   padding: 5px;
 }
@@ -55,6 +56,11 @@ pre {
   color: white;
   background-color: #161615;
   padding: 5px;
-  border-radius: 5px;
   text-align: center;
+}
+
+.icon-image {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 35px;
 }
