@@ -23,6 +23,24 @@ a {
   text-decoration: none;
 }
 
+.navmenu {
+  list-style-type: none;
+  font-family: "TopazPlus a600a1200a4000", "Lucida Console", monospace, Monaco;
+  text-align: center;
+}
+
+.navmenu-item {
+  background-color: #131313;
+  border-radius: 10px;
+}
+
+.navmenu-item:hover {
+  color: black;
+  background-color: #dddddd;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
 #asciilogo-section {
   display: block;
   margin-left: auto;
