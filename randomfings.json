@@ -11,6 +11,13 @@
       "youTubeUrl": "watch?v=jziQBWQxvok"
     },
     {
+      "text": "We're not going to do this like everyone else does it",
+      "production": "Melrose Space",
+      "releasedBy": "Three State",
+      "releaseYear": 1999,
+      "platform": "Windows"
+    },
+    {
       "text": "Insert disk one into DF0: and disk two into DF1:"
     },
     {
@@ -21,6 +28,13 @@
       "platform": "Amiga"
     },
     {
+      "text": "cut copy paste repeat",
+      "production": "Ziphead",
+      "releasedBy": "Fairlight and CNCD",
+      "releaseYear": 2015,
+      "platform": "Windows"
+    },
+    {
       "text": "Yeaaah!!! You got it at last......",
       "production": "Shock Megademo",
       "releasedBy": "ESI",
@@ -28,11 +42,34 @@
       "platform": "ZX Spectrum"
     },
     {
+      "text": "R Tape loading error, 0:1"
+    },
+    {
+      "text": "Stand over in the light",
+      "production": "Aliens Ate My Demomaker",
+      "releasedBy": "MFX and Kewlers",
+      "releaseYear": 2005,
+      "platform": "Windows"
+    },
+    {
+      "text": "Not a DOS disk in device DF0"
+    },
+    {
+      "text": "So just straight off the tricycle",
+      "production": "Arte",
+      "releasedBy": "Sanity",
+      "releaseYear": 1993,
+      "platform": "Amiga"
+    },
+    {
       "text": "Of course, seen before on Amiga",
       "production": "Bloody Memories 2.01",
       "releasedBy": "TRSI",
-      "releaseYear": "2007",
+      "releaseYear": 2007,
       "platform": "Xbox 360"
+    },
+    {
+      "text": "Press play on tape"
     },
     {
       "text": "Hey, little TV-child... Can't you stand the materia floating from your eyes?",
@@ -47,6 +84,13 @@
       "releasedBy": "Ephidrena",
       "releaseYear": 2003,
       "platform": "Amiga"
+    },
+    {
+      "text": "A world not of my making. Yet a world of my design.",
+      "production": "Chaos Theory",
+      "releasedBy": "Conspiracy",
+      "releaseYear": 2006,
+      "platform": "Windows"
     }
   ]
 }
