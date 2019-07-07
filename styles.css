@@ -23,6 +23,12 @@ a {
   text-decoration: none;
 }
 
+nav {
+  border-width: 1px;
+  border-style: dashed;
+  border-color: slategrey;
+}
+
 #asciilogo-section {
   display: block;
   margin-left: auto;
@@ -43,26 +49,14 @@ a {
   width: 100%;
 }
 
+#main-content {
+  color: #ffffff;
+  background-color: #161615;
+}
+
 #footer-section {
   background-color: #161615;
   text-align: center;
-}
-
-.column-left {
-  float: left;
-  border-width: 5px;
-}
-
-.column-right {
-  color: #000000;
-  background-color: #ffffff;
-  padding: 1px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .textbar {
