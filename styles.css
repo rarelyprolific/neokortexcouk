@@ -23,12 +23,6 @@ a {
   text-decoration: none;
 }
 
-nav {
-  border-width: 1px;
-  border-style: dashed;
-  border-color: slategrey;
-}
-
 #asciilogo-section {
   display: block;
   margin-left: auto;
@@ -51,12 +45,8 @@ nav {
 
 #main-content {
   color: #ffffff;
-  background-color: #161615;
-}
-
-#footer-section {
-  background-color: #161615;
-  text-align: center;
+  background-color: rgb(8, 8, 8);
+  padding: 15px;
 }
 
 .textbar {
@@ -69,10 +59,7 @@ nav {
 }
 
 .icon-image {
-  margin-left: 10px;
   margin-right: 10px;
-  margin-top: 5px;
-  margin-bottom: 2px;
   height: 35px;
 }
 
