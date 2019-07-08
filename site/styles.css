@@ -6,7 +6,6 @@
 body {
   margin-top: 0px;
   background-color: #000000;
-  font-family: Arial;
   color: white;
 }
 
@@ -23,12 +22,34 @@ pre {
 
 a {
   text-decoration: none;
+  color: #ff7b00;
+}
+
+a:visited {
+  color: #ff7b00;
+}
+
+a:hover {
+  color: #aa5200;
+  text-decoration: underline;
 }
 
 .navmenu {
   list-style-type: none;
   font-family: "TopazPlus a600a1200a4000", "Lucida Console", monospace, Monaco;
   text-align: center;
+}
+
+.navmenu a {
+  color: #ffffff;
+}
+
+.navmenu a:visited {
+  color: #ffffff;
+}
+
+.navmenu a:hover {
+  text-decoration: none;
 }
 
 .navmenu-item {
@@ -43,7 +64,8 @@ a {
   border-radius: 10px;
 }
 
-#asciilogo-section {
+/* We might not need this now! But we need to work on the ASCII display a little more. Figure it out. */
+/* #asciilogo-section {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -51,7 +73,7 @@ a {
   background-image: url("img/black-texture.jpg");
   width: 400px;
   padding: 10px;
-}
+} */
 
 #neokortex-logo {
   display: block;
