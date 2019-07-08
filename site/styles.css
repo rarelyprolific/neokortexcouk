@@ -91,6 +91,26 @@ a:hover {
   padding: 15px;
 }
 
+.news-date {
+  color: firebrick;
+  font-weight: bold;
+}
+
+#third-party-credits {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#version-identifier-container {
+  line-height: 60px;
+}
+
+#version-identifier {
+  font-size: 0.6em;
+  text-align: right;
+  vertical-align: middle;
+}
+
 .textbar {
   font-family: Courier New;
   color: white;
