@@ -101,14 +101,9 @@ a:hover {
   text-align: center;
 }
 
-#version-identifier-container {
-  line-height: 60px;
-}
-
 #version-identifier {
   font-size: 0.6em;
   text-align: right;
-  vertical-align: middle;
 }
 
 .textbar {
