@@ -93,10 +93,14 @@ a:hover {
 
 #main-content-interviews {
   color: black;
-  background-color: #f3f3f3;
+  background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.8em;
   padding: 15px;
+}
+
+#main-content-interviews hr {
+  border-top: 1px solid red;
 }
 
 .news-date {
@@ -131,6 +135,18 @@ a:hover {
 .interview-question {
   color: #008000;
   font-weight: bold;
+}
+
+img.center-aligned-image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+img.right-aligned-image {
+  float: right;
+  margin: 20px;
 }
 
 .icon-image {
