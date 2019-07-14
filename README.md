@@ -10,4 +10,4 @@ This is the website for the neokortex team in the UK demoscene. It is hosted at 
 
 ## Version History
 
-- v1.0.0 - **a glimmer of hope** - _pending release, final touches!_
+- v1.0.0.20190714 - **a glimmer of hope**
