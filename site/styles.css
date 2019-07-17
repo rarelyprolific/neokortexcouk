@@ -1,4 +1,19 @@
 @font-face {
+  font-family: "MicroKnight";
+  src: url(fonts/MicroKnight_v1.0.ttf);
+}
+
+@font-face {
+  font-family: "mO-sOul";
+  src: url(fonts/mO-sOul_v1.0.ttf);
+}
+
+@font-face {
+  font-family: "P0T-NOoDLE";
+  src: url(fonts/P0T-NOoDLE_v1.0.ttf);
+}
+
+@font-face {
   font-family: "TopazPlus a600a1200a4000";
   src: url(fonts/TopazPlus_a1200_v1.0.ttf);
 }

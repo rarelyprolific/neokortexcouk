@@ -30,3 +30,7 @@ function setTheRandomFing() {
       }
     });
 }
+
+function changeAsciiFont(fontFamily) {
+  document.getElementsByTagName("pre")[0].style.fontFamily = fontFamily;
+}
