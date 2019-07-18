@@ -34,3 +34,13 @@ function setTheRandomFing() {
 function changeAsciiFont(fontFamily) {
   document.getElementsByTagName("pre")[0].style.fontFamily = fontFamily;
 }
+
+// Builds the version identifier section in the site footer
+var versionIdentifier = new Vue({
+  el: "#version-identifier",
+  data: {
+    siteName: "neokortex.co.uk",
+    versionNumber: "v1.0.0.20190718",
+    versionName: "vue-tiful"
+  }
+});

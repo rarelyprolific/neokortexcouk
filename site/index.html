@@ -180,14 +180,16 @@
         </div>
 
         <div class="column column-25">
-          <p id="version-identifier">
-            neokortex.co.uk v1.0.0.20190714<br />
-            [a glimmer of hope]
+          <p id="version-identifier" v-once>
+            <span v-text="siteName"></span>
+            <span v-text="versionNumber"></span><br />
+            [<span v-text="versionName"></span>]
           </p>
         </div>
       </div>
     </div>
 
+    <script src="https://unpkg.com/vue"></script>
     <script src="scripts.js"></script>
   </body>
 </html>
