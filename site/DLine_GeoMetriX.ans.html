@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>neokortex.co.uk</title>
+
+    <link rel="stylesheet" href="libs/milligram.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <img
+      id="neokortex-logo"
+      alt="neokortex-logo"
+      src="img/neokortex-exploding.jpg"
+    />
+
+    <div id="header-section">
+      <div class="rainbow-bar"></div>
+      <p class="textbar">
+        <span id="random-fing">
+          This is a static random fing.. Which is an oxymoron! Is the JavaScript
+          working?
+        </span>
+      </p>
+      <div class="rainbow-bar"></div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <nav class="column column-25">
+          <ul class="navmenu">
+            <a href="index.html">
+              <li class="navmenu-item">
+                News and Announcements
+              </li>
+            </a>
+            <a href="about.html">
+              <li class="navmenu-item">About and Memberlist</li>
+            </a>
+          </ul>
+
+          <h5>Releases:</h5>
+          <ul class="navmenu">
+            <a href="nkx-evoke2o19.txt.html">
+              <li class="navmenu-item">
+                nkx-evoke2o19.txt<br />
+                [ASCII] 18/08/2019
+              </li>
+            </a>
+            <a href="nkx-versus9-votesheet.txt.html">
+              <li class="navmenu-item">
+                nkx-versus9-votesheet<br />
+                [ASCII] 06/07/2019
+              </li>
+            </a>
+            <a href="n0va_19.txt.html">
+              <li class="navmenu-item">
+                N0VA_19.txt<br />
+                [ASCII] 22/06/2019
+              </li>
+            </a>
+          </ul>
+
+          <h5>Scene Interviews:</h5>
+          <ul class="navmenu">
+            <a href="darkus.html"><li class="navmenu-item">Darkus</li></a>
+            <a href="freaknfa.html">
+              <li class="navmenu-item">Freak / NFA</li>
+            </a>
+            <a href="majicm.html">
+              <li class="navmenu-item">Majic Mushroom</li>
+            </a>
+            <a href="obviousdisaster.html">
+              <li class="navmenu-item">Obvious Disaster</li>
+            </a>
+          </ul>
+        </nav>
+
+        <div id="main-content" class="column">
+          <h2>DLine_GeoMetriX.ans</h2>
+          <div id="geometrix-render"></div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="column column-50">
+          <a
+            href="https://www.facebook.com/neokortex.demoscene.7"
+            target="_blank"
+          >
+            <img src="img/f_logo_RGB-Hex-Blue_512.png" class="icon-image" />
+          </a>
+
+          <a href="https://twitter.com/nkxdemoscene" target="_blank">
+            <img src="img/Twitter_Logo_WhiteOnBlue.png" class="icon-image" />
+          </a>
+
+          <a href="https://demozoo.org/groups/90368" target="_blank">
+            <img src="img/demozoo_title.png" class="icon-image" />
+          </a>
+
+          <a
+            href='mailto:fuzion@neokortex.co.uk?subject="STuFF"'
+            target="_blank"
+          >
+            <img src="img/email-icon.png" class="icon-image" />
+          </a>
+        </div>
+
+        <div class="column column-25">
+          <p id="third-party-credits">
+            The use of
+            <a href="https://milligram.io/" target="_blank">Milligram</a>
+            and
+            <a href="https://github.com/rewtnull/amigafonts" target="_blank"
+              >Amiga fonts by tRUEsCHOOL</a
+            >
+            helped to create this site!
+          </p>
+        </div>
+
+        <div class="column column-25">
+          <p id="version-identifier">
+            neokortex.co.uk v1.0.0.20190714<br />
+            [a glimmer of hope]
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script src="libs/ansilove.js"></script>
+    <script type="text/javascript">
+      // TODO: Refactor this into a dedicated JS file and make a generic ASCII/ANSI loader page
+      // which can load any of the collys. Tweak the layout to look a little better too.
+      // Make sure we update the menu and give ansilove a credit on the footer.
+      var controller = AnsiLove.animate(
+        "collys/DLine_GeoMetrix.ans.txt",
+        function(canvas, sauce) {
+          document.getElementById("geometrix-render").appendChild(canvas);
+          console.log(sauce);
+          controller.play(57600, function() {
+            console.log("Finished!");
+          });
+        },
+        {
+          font: "amiga",
+          bits: "8",
+          icecolors: 0,
+          columns: 80,
+          rows: 62
+        }
+      );
+    </script>
+  </body>
+</html>
