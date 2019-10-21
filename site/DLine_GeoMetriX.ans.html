@@ -80,7 +80,7 @@
         </nav>
 
         <div id="main-content" class="column">
-          <h2>DLine_GeoMetriX.ans</h2>
+          <h2 id="colly-name">OoPS! No CoLLY LoADED!</h2>
           <div id="geometrix-render"></div>
         </div>
       </div>
@@ -133,29 +133,8 @@
       </div>
     </div>
 
-    <script src="scripts.js"></script>
     <script src="libs/ansilove.js"></script>
-    <script type="text/javascript">
-      // TODO: Refactor this into a dedicated JS file and make a generic ASCII/ANSI loader page
-      // which can load any of the collys. Tweak the layout to look a little better too.
-      // Make sure we update the menu and give ansilove a credit on the footer.
-      var controller = AnsiLove.animate(
-        "collys/DLine_GeoMetrix.ans.txt",
-        function(canvas, sauce) {
-          document.getElementById("geometrix-render").appendChild(canvas);
-          console.log(sauce);
-          controller.play(57600, function() {
-            console.log("Finished!");
-          });
-        },
-        {
-          font: "amiga",
-          bits: "8",
-          icecolors: 0,
-          columns: 80,
-          rows: 62
-        }
-      );
-    </script>
+    <script src="collyviewer.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>

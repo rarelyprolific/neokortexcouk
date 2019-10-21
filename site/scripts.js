@@ -1,5 +1,11 @@
 window.onload = function() {
   setTheRandomFing();
+
+  // Runs the ANSI colly display function if we're on a page where we've included the script
+  // (Yes, this is messy and hacky! I need to tidy this up later.)
+  if (typeof displayColly !== "undefined") {
+    displayColly();
+  }
 };
 
 function setTheRandomFing() {
