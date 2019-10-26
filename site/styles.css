@@ -79,17 +79,6 @@ a:hover {
   border-radius: 10px;
 }
 
-/* We might not need this now! But we need to work on the ASCII display a little more. Figure it out. */
-/* #asciilogo-section {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  background-image: url("img/black-texture.jpg");
-  width: 400px;
-  padding: 10px;
-} */
-
 #neokortex-logo {
   display: block;
   margin-left: auto;
@@ -109,6 +98,12 @@ a:hover {
 #main-content-collyviewer {
   background-color: black;
   text-align: center;
+}
+
+#colly-content {
+  border: #535353;
+  border-style: dashed;
+  border-width: 2px;
 }
 
 #main-content-interviews {
