@@ -1,13 +1,15 @@
+// Initialises any required JavaScript at page load
+// (..until we get something more structured in here)
 window.onload = function() {
   setTheRandomFing();
 
-  // Runs the ANSI colly display function if we're on a page where we've included the script
-  // (Yes, this is messy and hacky! I need to tidy this up later.)
-  if (typeof displayColly !== "undefined") {
-    displayColly();
+  // Runs the collyviewer (..if we're on a page which includes the collyviewer)
+  if (typeof displayCollyModemStyle !== "undefined") {
+    displayCollyModemStyle();
   }
 };
 
+// Displays a new random fing each the page is loaded
 function setTheRandomFing() {
   return fetch("randomfings.json")
     .then(function(response) {
@@ -37,6 +39,7 @@ function setTheRandomFing() {
     });
 }
 
+// Switches the Amiga display font on the old ASCII viewer
 function changeAsciiFont(fontFamily) {
   document.getElementsByTagName("pre")[0].style.fontFamily = fontFamily;
 }
