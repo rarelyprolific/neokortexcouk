@@ -799,6 +799,18 @@ var AnsiLove = (function () {
         validatedOptions["2J"] = ((typeof options["2J"] === "number") && options["2J"] >= 0 && options["2J"] <= 1) ? options["2J"] : 1;
         // "filetype", can be any string, since readBytes() defaults to the ANSI renderer if it is unrecognised.
         validatedOptions.filetype = (typeof options.filetype === "string") ? options.filetype : "ans";
+        
+        // Validates "extendedcolumns" is a positive integer (if specified) or defaults to 0 (i.e. standard 80 character column width)
+        if (typeof options.extendedcolumns === "undefined") {
+            validatedOptions.extendedcolumns = 0;
+        } else {
+            if (!(typeof options.extendedcolumns === "number") || options.extendedcolumns < 0) {
+                console.warn("Ansilove.js WARNING: If specified, 'extendedcolumns' must be a positive integer value. Defaulting to zero.");
+                validatedOptions.extendedcolumns = 0;
+            } else {
+                validatedOptions.extendedcolumns = options.extendedcolumns;
+            }
+        }
 
         return validatedOptions;
     }
@@ -1871,6 +1883,12 @@ var AnsiLove = (function () {
             columns = 80;
         }
 
+        // Extends the column width by the number of extended columns specified
+        if (options.extendedcolumns > 0)
+        {
+            columns += options.extendedcolumns;
+        }
+        
         // Set the amount of <rows> is set in <options>, use it.
         rows = options.rows || 26;
 

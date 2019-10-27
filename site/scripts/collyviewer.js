@@ -8,6 +8,7 @@ function displayCollyModemStyle() {
   var collyName = querystringParams.get("collyname");
   var displayMode = querystringParams.get("displaymode");
   var lineHeight = Number(querystringParams.get("lineheight"));
+  var extendedColumns = Number(querystringParams.get("extendedcolumns"));
 
   // Set the base directory to load collys from
   var collyPath = "collys/" + collyName;
@@ -27,7 +28,8 @@ function displayCollyModemStyle() {
       font: "topaz+",
       bits: displayMode || "8",
       icecolors: 0,
-      rows: lineHeight
+      rows: lineHeight,
+      extendedcolumns: extendedColumns || 0
     }
   );
 }
