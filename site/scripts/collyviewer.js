@@ -9,6 +9,7 @@ function displayCollyModemStyle() {
   var displayMode = querystringParams.get("displaymode");
   var lineHeight = Number(querystringParams.get("lineheight"));
   var extendedColumns = Number(querystringParams.get("extendedcolumns"));
+  var font = querystringParams.get("font");
 
   // Set the base directory to load collys from
   var collyPath = "collys/" + collyName;
@@ -25,11 +26,25 @@ function displayCollyModemStyle() {
       });
     },
     {
-      font: "topaz+",
+      font: font || "topazplus",
       bits: displayMode || "8",
       icecolors: 0,
       rows: lineHeight,
       extendedcolumns: extendedColumns || 0
     }
   );
+}
+
+// Changes the current display font.
+function collyviewerFontChanger(font) {
+  var querystringParams = new URLSearchParams(window.location.search);
+
+  // If there is currently a "font" set, remove it.
+  if (querystringParams.has("font")) {
+    querystringParams.delete("font");
+  }
+
+  // Set the "font" parameter and reload the page.
+  querystringParams.append("font", font);
+  window.location.href = window.location.pathname + "?" + querystringParams.toString();
 }
