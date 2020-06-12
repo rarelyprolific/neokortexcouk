@@ -46,7 +46,11 @@ function changeAsciiFont(fontFamily) {
 
 // Sets a random Neokortex logo
 function setRandomNeokortexLogo() {
-  const arrayOfLogos = ["img/neokortex-logo-1.jpg", "img/neokortex-logo-2.png"];
+  const arrayOfLogos = [
+    "img/neokortex-logo-1.jpg",
+    "img/neokortex-logo-2.png",
+    "img/neokortex-logo-3.png",
+  ];
   const randomLogoIndex = Math.floor(Math.random() * arrayOfLogos.length);
 
   document.getElementById("neokortex-logo").setAttribute("src", arrayOfLogos[randomLogoIndex]);
