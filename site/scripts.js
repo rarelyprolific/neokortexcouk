@@ -50,6 +50,7 @@ function setRandomNeokortexLogo() {
     "img/neokortex-logo-1.jpg",
     "img/neokortex-logo-2.png",
     "img/neokortex-logo-3.png",
+    "img/neokortex-logo-4.png",
   ];
   const randomLogoIndex = Math.floor(Math.random() * arrayOfLogos.length);
 
