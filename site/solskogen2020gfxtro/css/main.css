@@ -1,48 +1,43 @@
 html {
-	background-size: cover;
-	background-position: center;
-	background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
 }
 
-#wrapper
-{
-	display: flex;
-	align-content: center;
-	flex-wrap: wrap;
-	height: 100vh;
+#wrapper {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
 }
 
-canvas
-{
-	border: 1px solid white;
-	box-shadow: 0 0 150px rgba(0,0,0,1);
+canvas {
+  border: 1px solid white;
+  box-shadow: 0 0 150px rgba(0, 0, 0, 1);
 }
 
-#main
-{
-	flex: 1;
-	zoom: 50%;
-	margin: 0 auto;
-	max-width: 1920px;
+#main {
+  flex: 1;
+  zoom: 50%;
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
-button
-{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	background-image: url('../images/fullscreen-icon-white.png');
-	background-position: 8px center;
-	background-repeat: no-repeat;
-	border: 0;
-	text-transform: uppercase;
-	color: white;
-	padding: 1em 1em 1em 2.5em;
-	opacity: .65;
-	transition: .5s all;
+button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-image: url("../images/fullscreen-icon-white.png");
+  background-position: 8px center;
+  background-repeat: no-repeat;
+  border: 0;
+  text-transform: uppercase;
+  color: white;
+  padding: 1em 1em 1em 2.5em;
+  opacity: 0.65;
+  transition: 0.5s all;
 }
 
-button:hover
-{
-	opacity: 1;
+button:hover {
+  opacity: 1;
 }
