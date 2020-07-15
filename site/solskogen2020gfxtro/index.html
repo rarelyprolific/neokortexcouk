@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<title>Solskogen 2020 Logo Competition</title>
+		<style>
+			html
+			{
+				background-image: url(images/spiral-splatter.png);
+			}
+			button
+			{
+				background-color: #009688;
+			}
+		</style>
+		<script src="https://codef.santo.fr/codef/codef_core.js"></script>
+		<script src="https://codef.santo.fr/codef/codef_3d.js"></script>
+		<script>
+			var mycanvas;
+			var my3dcanvas;
+			var my3d;
+			var light;
+			var scene;
+			var camera,renderer, sphere;
+
+			var renderer = new THREE.WebGLRenderer();
+			var rotationTime = 0;
+			var rot = 0;
+			var object_rotation = 0;
+
+			var current_object = 0;
+
+			// super logos
+			var logoImage = new image('files/solskogen-logo.png');
+			var bgImage = new image('files/solskogen-bg-0.jpg');
+			var borderImage = new image('files/solskogen-border.png');
+			var nkxImage = new image('files/solskogen-neokortex.png');
+			var sunsetImage = new image('files/solskogen-sunset.png');
+
+			// 3d crap
+			var myobj = new Array();
+			var myobjvert = new Array();
+			var myobjrot = new Array();
+
+			// circle jerk
+			myobjvert = new Array();
+			var step = (2*Math.PI) / 6;
+			multiplier = 27;
+			myobjvert=[
+				{x: Math.sin(step * 1) * multiplier, y: Math.cos(step * 1) * multiplier, z: 0, color:0xff8888 },
+				{x: Math.sin(step * 2) * multiplier, y: Math.cos(step * 2) * multiplier, z: 0, color:0xffff88 },
+				{x: Math.sin(step * 3) * multiplier, y: Math.cos(step * 3) * multiplier, z: 0, color:0x88ff88 },
+				{x: Math.sin(step * 4) * multiplier, y: Math.cos(step * 4) * multiplier, z: 0, color:0x88ffff },
+				{x: Math.sin(step * 5) * multiplier, y: Math.cos(step * 5) * multiplier, z: 0, color:0x8888ff },
+				{x: Math.sin(step * 6) * multiplier, y: Math.cos(step * 6) * multiplier, z: 0, color:0xff88ff },
+			];
+
+			function init(){
+				var elem = document.getElementById('main');
+				mycanvas=new canvas(1920,1080,"main");
+				sunsetcanvas=new canvas(1135,1135);
+				sunsetImage.draw( sunsetcanvas );
+				sunsetcanvas.setmidhandle();
+				my3d=new codef3D(mycanvas, 700, 40, 1, 1000 );
+
+				my3dcanvas = new THREE.WebGLRenderer({ alpha: true });
+				my3dcanvas.setSize( 1920,1080);
+
+				scene = new THREE.Scene();
+
+				camera = new THREE.PerspectiveCamera( 35, 1920/1080, 1, 1000 );
+				camera.position.z = 130;
+				camera.position.x = 13;
+				camera.position.Y = 0;
+				scene.add( camera );
+
+				scene.add( new THREE.AmbientLight( 0x000000 ) );
+
+				light = new THREE.PointLight( 0xffffff, .5 );
+				scene.add( light );
+
+				// Here a Create an empty group to place stuff in
+				group = new THREE.Object3D();
+				scene.add( group );
+
+				sphereRday = new THREE.MeshBasicMaterial( {color: 0xff4444, overdraw: 0.5, flatShading: false } );
+				sphereYday = new THREE.MeshBasicMaterial( {color: 0xffff44, overdraw: 0.5, flatShading: false } );
+				sphereGday = new THREE.MeshBasicMaterial( {color: 0x44ff44, overdraw: 0.5, flatShading: false } );
+				sphereAday = new THREE.MeshBasicMaterial( {color: 0x44ffff, overdraw: 0.5, flatShading: false } );
+				sphereBday = new THREE.MeshBasicMaterial( {color: 0x4444ff, overdraw: 0.5, flatShading: false } );
+				spherePday = new THREE.MeshBasicMaterial( {color: 0xff44ff, overdraw: 0.5, flatShading: false } );
+
+				sphereR = new THREE.Mesh( new THREE.SphereGeometry( 13, 50, 50 ), sphereRday );
+				sphereY = new THREE.Mesh( new THREE.SphereGeometry( 13, 50, 50 ), sphereYday );
+				sphereG = new THREE.Mesh( new THREE.SphereGeometry( 13, 50, 50 ), sphereGday );
+				sphereA = new THREE.Mesh( new THREE.SphereGeometry( 13, 50, 50 ), sphereAday );
+				sphereB = new THREE.Mesh( new THREE.SphereGeometry( 13, 50, 50 ), sphereBday );
+				sphereP = new THREE.Mesh( new THREE.SphereGeometry( 13, 50, 50 ), spherePday );
+
+				scene.add( sphereR, sphereY, sphereG, sphereA, sphereB, sphereP );
+				group.add( sphereR );
+				group.add( sphereY );
+				group.add( sphereG );
+				group.add( sphereA );
+				group.add( sphereB );
+				group.add( sphereP );
+				group.rotation.z = 40.3;
+
+				sphereR.position.x = myobjvert[0].x;
+				sphereR.position.y = myobjvert[0].y;
+
+				sphereY.position.x = myobjvert[1].x;
+				sphereY.position.y = myobjvert[1].y;
+
+				sphereG.position.x = myobjvert[2].x;
+				sphereG.position.y = myobjvert[2].y;
+
+				sphereA.position.x = myobjvert[3].x;
+				sphereA.position.y = myobjvert[3].y;
+
+				sphereB.position.x = myobjvert[4].x;
+				sphereB.position.y = myobjvert[4].y;
+
+				sphereP.position.x = myobjvert[5].x;
+				sphereP.position.y = myobjvert[5].y;
+
+
+				renderer = new THREE.CanvasRenderer();
+				go();
+			}
+			function go(){
+				var time = Date.now() * 0.004;
+				rot++;
+				mycanvas.fill( '#000000' );
+				bgImage.draw( mycanvas, 0, 0 );
+				my3dcanvas.render( scene, camera );
+				mycanvas.contex.drawImage(my3dcanvas.domElement,0,0);
+				sunsetcanvas.draw( mycanvas, 1750, 960,.5,rot,.75,.75);
+				logoImage.draw( mycanvas, 0, 340 );
+
+				borderImage.draw( mycanvas, 0, 0, .5 );
+				nkxImage.draw( mycanvas, 1660, 900 );
+
+				// rotate the circle jerk
+				if ( rotationTime > 59 ) {
+					rotationTime++;
+					if ( rotationTime > 160 ) {
+						rotationTime = 0;
+					}
+				} else {
+					group.rotation.z+= 1 * ( Math.PI / 180 );
+					rotationTime++;
+				}
+				group.children[0].geometry.computeFaceNormals();
+				group.children[0].geometry.dynamic = true;
+
+				// rinse and repeat
+				requestAnimFrame( go );
+			}
+		</script>
+	</head>
+	<body onLoad="init();">
+		<div id="wrapper">
+			<div id="main"></div>
+			<button id="fullscreenbutton" onclick="openFullscreen();">Fullscreen Mode</button>
+		</div>
+		<script>
+			function openFullscreen() {
+				var elem = document.getElementById("maincanvas");
+				if (elem.requestFullscreen) {
+					elem.requestFullscreen();
+				} else if (elem.mozRequestFullScreen) {
+					elem.mozRequestFullScreen();
+				} else if (elem.webkitRequestFullscreen) {
+					elem.webkitRequestFullscreen();
+				} else if (elem.msRequestFullscreen) {
+					elem.msRequestFullscreen();
+				}
+			}
+		</script>
+	</body>
+</html>
