@@ -213,6 +213,7 @@
   </head>
   <body onLoad="init();">
     <div id="wrapper">
+      <button id="backtositebutton" onclick="backToSite();">Back to neokortex.co.uk</button>
       <div id="main"></div>
       <button id="fullscreenbutton" onclick="openFullscreen();">Fullscreen Mode</button>
     </div>
@@ -228,6 +229,11 @@
         } else if (elem.msRequestFullscreen) {
           elem.msRequestFullscreen();
         }
+      }
+
+      // return back to neokortex.co.uk site root
+      function backToSite() {
+        window.location.href = "../";
       }
     </script>
   </body>
