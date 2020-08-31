@@ -171,6 +171,13 @@
       "releasedBy": "Bonzai, Censor Design, Fairlight, Genesis Project, Offence",
       "releaseYear": 2019,
       "platform": "C64"
+    },
+    {
+      "text": "THIS IS *NOT* A SNES DEMO",
+      "production": "MD-NICCC (remix of STNICCC2000)",
+      "releasedBy": "Titan",
+      "releaseYear": 2019,
+      "platform": "Sega Megadrive"
     }
   ]
 }
