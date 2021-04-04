@@ -1,6 +1,6 @@
 # neokortexcouk
 
-This is the website for the neokortex team in the UK demoscene. It is hosted at www.neokortex.co.uk.
+This is the website for the neokortex team in the demoscene. It is hosted at www.neokortex.co.uk.
 
 ## TODOs and possible future enhancements
 
