@@ -66,8 +66,7 @@ function buildReleasesMenuItems() {
       name: "N0VA_19.txt",
       type: "ASCII",
       date: "22/06/2019",
-      url:
-        "collyviewer.html?collyname=nkx-nova19.txt&lineheight=506&extendedcolumns=40&displaymode=ced",
+      url: "collyviewer.html?collyname=nkx-nova19.txt&lineheight=506&extendedcolumns=40&displaymode=ced",
     },
     {
       name: "nkx-versus9-votesheet",
@@ -91,8 +90,7 @@ function buildReleasesMenuItems() {
       name: "nkx-rev2o2o.txt",
       type: "ASCII",
       date: "11/04/2020",
-      url:
-        "collyviewer.html?collyname=nkx-rev2o2o.txt&lineheight=1010&extendedcolumns=25&displaymode=ced",
+      url: "collyviewer.html?collyname=nkx-rev2o2o.txt&lineheight=1010&extendedcolumns=25&displaymode=ced",
     },
     {
       name: "nOVA-pARTY-nETWORK.ans",
@@ -134,7 +132,7 @@ function buildReleasesMenuItems() {
       name: "nkx_together.ans",
       type: "ANSI",
       date: "03/04/2021",
-      url: "collyviewer.html?collyname=nkx_together.ans&lineheight=505",
+      url: "collyviewer.html?collyname=nkx_together.ans&lineheight=505&disableblink=true",
     },
   ];
 

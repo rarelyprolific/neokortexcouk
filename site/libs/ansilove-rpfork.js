@@ -811,6 +811,18 @@ var AnsiLove = (function () {
                 validatedOptions.extendedcolumns = options.extendedcolumns;
             }
         }
+		
+		// Validates "disableblink" is a boolean (if specified) or defaults to false.
+		if (typeof options.disableblink === "undefined") {
+			validatedOptions.disableblink = false;
+		} else {
+            if (!((options.disableblink === "true") || (options.disableblink === "false"))) {
+                console.warn("Ansilove.js WARNING: If specified, 'disableblink' must be true or false. Defaulting to false.");
+                validatedOptions.disableblink = false;
+            } else {
+                validatedOptions.disableblink = (options.disableblink === "true");
+            }
+		}
 
         return validatedOptions;
     }
@@ -1141,8 +1153,8 @@ var AnsiLove = (function () {
                                                 foreground24bit = undefined;
                                             }
                                             break;
-                                        case 5: // Blink
-                                            blink = true;
+                                        case 5: // Blink on (unless disabled in options).
+                                            blink = !options.disableblink;
                                             break;
                                         case 7: // Inverse
                                             inverse = true;
@@ -2071,8 +2083,8 @@ var AnsiLove = (function () {
                                                 foreground24bit = undefined;
                                             }
                                             break;
-                                        case 5: // Blink on.
-                                            blink = true;
+                                        case 5: // Blink on (unless disabled in options).
+                                            blink = !options.disableblink;
                                             break;
                                         case 7: // Inverse on.
                                             inverse = true;

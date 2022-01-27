@@ -9,6 +9,7 @@ function displayCollyModemStyle() {
   var displayMode = querystringParams.get("displaymode");
   var lineHeight = Number(querystringParams.get("lineheight"));
   var extendedColumns = Number(querystringParams.get("extendedcolumns"));
+  var disableblink = querystringParams.get("disableblink");
   var font = querystringParams.get("font");
 
   // Set the base directory to load collys from
@@ -17,10 +18,10 @@ function displayCollyModemStyle() {
   // Load and display the colly
   var controller = AnsiLove.animate(
     collyPath,
-    function(canvas) {
+    function (canvas) {
       document.getElementById("colly-content").appendChild(canvas);
       document.getElementById("colly-name").innerHTML = "LoADING: " + collyName;
-      controller.play(57600, function() {
+      controller.play(57600, function () {
         document.getElementById("colly-name").innerHTML =
           "SHoWING: <a href='" + collyPath + "'>" + collyName + "</a>";
       });
@@ -30,7 +31,8 @@ function displayCollyModemStyle() {
       bits: displayMode || "8",
       icecolors: 0,
       rows: lineHeight,
-      extendedcolumns: extendedColumns || 0
+      extendedcolumns: extendedColumns || 0,
+      disableblink: disableblink || "false",
     }
   );
 }
