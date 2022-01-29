@@ -71,6 +71,18 @@
       "type": "ANSI",
       "date": "03/04/2021",
       "url": "collyviewer.html?collyname=nkx_together.ans&lineheight=505&disableblink=true"
+    },
+    {
+      "name": "nkx_txt_art_4ever.txt",
+      "type": "ASCII",
+      "date": "04/09/2021",
+      "url": "collyviewer.html?collyname=nkx_txt_art_4ever.txt&lineheight=102&extendedcolumns=40&displaymode=ced"
+    },
+    {
+      "name": "nkx_dline_reunited.ans",
+      "type": "ANSI",
+      "date": "09/10/2021",
+      "url": "collyviewer.html?collyname=nkx_dline_reunited.ans&lineheight=215"
     }
   ]
 }
