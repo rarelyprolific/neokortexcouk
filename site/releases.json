@@ -97,10 +97,22 @@
       "url": "collyviewer.html?collyname=nkx_welcome_to_the_jungle.ans&lineheight=100"
     },
     {
+      "name": "nkx_geo_vector_overload.ans",
+      "type": "ANSI",
+      "date": "06/08/2022",
+      "url": "collyviewer.html?collyname=nkx_geo_vector_overload.ans&lineheight=30"
+    },
+    {
       "name": "nkx_midnight_in_bud.ans",
       "type": "ANSI",
       "date": "13/08/2022",
       "url": "collyviewer.html?collyname=nkx_midnight_in_bud.ans&lineheight=215"
+    },
+    {
+      "name": "nkx_kung_fu_afro_twins.txt",
+      "type": "ASCII",
+      "date": "01/10/2022",
+      "url": "collyviewer.html?collyname=nkx_kung_fu_afro_twins.txt&lineheight=270&extendedcolumns=30&displaymode=ced"
     }
   ]
 }
