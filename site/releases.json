@@ -119,6 +119,18 @@
       "type": "ANSI",
       "date": "19/11/2022",
       "url": "collyviewer.html?collyname=nkx_splash_party.ans&lineheight=100"
+    },
+    {
+      "name": "SPAG2.txt",
+      "type": "ASCII",
+      "date": "23/03/2023",
+      "url": "collyviewer.html?collyname=SPAG2.txt&lineheight=95&extendedcolumns=13&displaymode=ced"
+    },
+    {
+      "name": "SPAG2.ans",
+      "type": "ANSI",
+      "date": "23/03/2023",
+      "url": "collyviewer.html?collyname=SPAG2.ans&lineheight=100"
     }
   ]
 }
