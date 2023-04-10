@@ -131,6 +131,12 @@
       "type": "ANSI",
       "date": "23/03/2023",
       "url": "collyviewer.html?collyname=SPAG2.ans&lineheight=100"
+    },
+    {
+      "name": "nkx_bk_2_da_ewerk.txt",
+      "type": "ASCII",
+      "date": "09/04/2023",
+      "url": "collyviewer.html?collyname=nkx_bk_2_da_ewerk.txt&lineheight=275&extendedcolumns=1&displaymode=ced"
     }
   ]
 }
