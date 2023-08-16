@@ -137,6 +137,36 @@
       "type": "ASCII",
       "date": "09/04/2023",
       "url": "collyviewer.html?collyname=nkx_bk_2_da_ewerk.txt&lineheight=275&extendedcolumns=1&displaymode=ced"
+    },
+    {
+      "name": "amstrad_compo.ans",
+      "type": "ANSI",
+      "date": "18/06/2023",
+      "url": "collyviewer.html?collyname=amstrad_compo.ans&lineheight=300"
+    },
+    {
+      "name": "Nova23_Results_Latest.txt",
+      "type": "ASCII",
+      "date": "25/06/2023",
+      "url": "collyviewer.html?collyname=Nova23_Results_Latest.txt&lineheight=600&extendedcolumns=1&displaymode=ced"
+    },
+    {
+      "name": "Edison_2023_Results.txt",
+      "type": "ASCII",
+      "date": "09/07/2023",
+      "url": "collyviewer.html?collyname=Edison_2023_Results.txt&lineheight=360&displaymode=ced"
+    },
+    {
+      "name": "k33pin'-iT-oldskoOL.ans",
+      "type": "ANSI",
+      "date": "??/??/2023",
+      "url": "collyviewer.html?collyname=k33pin'-iT-oldskoOL.ans&lineheight=150"
+    },
+    {
+      "name": "moto_pow3r.ans",
+      "type": "ANSI",
+      "date": "??/??/2023",
+      "url": "collyviewer.html?collyname=moto_pow3r.ans&lineheight=100"
     }
   ]
 }
