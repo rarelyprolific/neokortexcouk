@@ -1,0 +1,12 @@
+{
+  "partyresults": [
+    {
+      "name": "Nova 2023",
+      "url": "collyviewer.html?collyname=Nova23_Results.txt&lineheight=600&extendedcolumns=1&displaymode=ced"
+    },
+    {
+      "name": "Edison 2023",
+      "url": "collyviewer.html?collyname=Edison_2023_Results.txt&lineheight=360&displaymode=ced"
+    }
+  ]
+}

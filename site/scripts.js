@@ -3,6 +3,8 @@
 window.onload = function () {
   setTheRandomFing();
   setRandomNeokortexLogo();
+
+  buildPartyResultsMenuItems();
   buildReleasesMenuItems();
 
   // Runs the collyviewer (..if we're on a page which includes the collyviewer)
@@ -58,6 +60,25 @@ function setRandomNeokortexLogo() {
   const randomLogoIndex = Math.floor(Math.random() * arrayOfLogos.length);
 
   document.getElementById("neokortex-logo").setAttribute("src", arrayOfLogos[randomLogoIndex]);
+}
+
+// Builds the party releases section of the navigation menu (a cheap and nasty way because I got fed
+// up tweaking multiple files but didn't want to pull in excess stuff just to do a HTML include!)
+function buildPartyResultsMenuItems() {
+  return fetch("partyresults.json")
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      let menu = document.getElementById("partyresults-menu-items");
+
+      for (const item of data.partyresults) {
+        menu.insertAdjacentHTML(
+          "afterbegin",
+          `<a href=${item.url}><li class="navmenu-item">${item.name}</li></a>`
+        );
+      }
+    });
 }
 
 // Builds the releases section of the navigation menu (a cheap and nasty way because I got fed
