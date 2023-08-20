@@ -11,7 +11,23 @@ window.onload = function () {
   if (typeof displayCollyModemStyle !== "undefined") {
     displayCollyModemStyle();
   }
+
+  const nkxWebApp = new NkxWebApp();
+
+  // Populates the version number and moniker in the page footer.
+  document.getElementById("version-number").innerHTML = nkxWebApp.getVersionNumber();
+  document.getElementById("version-moniker").innerHTML = nkxWebApp.getVersionMoniker();
 };
+
+class NkxWebApp {
+  getVersionNumber() {
+    return "neokortex.co.uk v1.0.3.20230820";
+  }
+
+  getVersionMoniker() {
+    return "[virtuallynojavascriptimprovements]";
+  }
+}
 
 // Displays a new random fing each the page is loaded
 function setTheRandomFing() {
