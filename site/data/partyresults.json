@@ -7,6 +7,10 @@
     {
       "name": "Edison 2023",
       "url": "collyviewer.html?collyname=Edison_2023_Results.txt&lineheight=360&displaymode=ced"
+    },
+    {
+      "name": "Amstrad ASCII Compo 2023",
+      "url": "collyviewer.html?collyname=amstrad_compo.ans&lineheight=100"
     }
   ]
 }
