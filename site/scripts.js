@@ -41,6 +41,11 @@ class NkxWebApp {
     const randomLogoIndex = Math.floor(Math.random() * arrayOfLogos.length);
 
     document.getElementById("neokortex-logo").setAttribute("src", arrayOfLogos[randomLogoIndex]);
+
+    // TODO: Refactor above array of logos into a data/neokortexlogo.json datafile.
+    // Give each logo a background colour property and use/set it here. Hard-coded to black until I do this!
+    const element = document.getElementById("logo-section");
+    element.style.backgroundColor = "black";
   }
 
   setTheRandomFing() {
