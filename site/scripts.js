@@ -30,22 +30,25 @@ class NkxWebApp {
   }
 
   setRandomNeokortexLogo() {
-    const arrayOfLogos = [
-      "img/neokortex-logo-1.jpg",
-      "img/neokortex-logo-2.png",
-      "img/neokortex-logo-3.png",
-      "img/neokortex-logo-4.png",
-      "img/neokortex-logo-5.png",
-      "img/neokortex-logo-6.png",
-    ];
-    const randomLogoIndex = Math.floor(Math.random() * arrayOfLogos.length);
+    return fetch("data/neokortexlogos.json")
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        const neokortexLogos = data.neokortexLogos;
 
-    document.getElementById("neokortex-logo").setAttribute("src", arrayOfLogos[randomLogoIndex]);
+        // Pick a random logo.
+        const randomLogoIndex = Math.floor(Math.random() * neokortexLogos.length);
 
-    // TODO: Refactor above array of logos into a data/neokortexlogo.json datafile.
-    // Give each logo a background colour property and use/set it here. Hard-coded to black until I do this!
-    const element = document.getElementById("logo-section");
-    element.style.backgroundColor = "black";
+        // Display the logo.
+        document
+          .getElementById("neokortex-logo")
+          .setAttribute("src", neokortexLogos[randomLogoIndex].filepath);
+
+        // Match the background colour of the logo section to the logo.
+        const element = document.getElementById("logo-section");
+        element.style.backgroundColor = neokortexLogos[randomLogoIndex].backgroundColor;
+      });
   }
 
   setTheRandomFing() {

@@ -1,0 +1,28 @@
+{
+  "neokortexLogos": [
+    {
+      "filepath": "img/neokortex-logo-1.jpg",
+      "backgroundColor": "#000000"
+    },
+    {
+      "filepath": "img/neokortex-logo-2.png",
+      "backgroundColor": "#000000"
+    },
+    {
+      "filepath": "img/neokortex-logo-3.png",
+      "backgroundColor": "#000000"
+    },
+    {
+      "filepath": "img/neokortex-logo-4.png",
+      "backgroundColor": "#0000AB"
+    },
+    {
+      "filepath": "img/neokortex-logo-5.png",
+      "backgroundColor": "#000000"
+    },
+    {
+      "filepath": "img/neokortex-logo-6.png",
+      "backgroundColor": "#ABABAB"
+    }
+  ]
+}
