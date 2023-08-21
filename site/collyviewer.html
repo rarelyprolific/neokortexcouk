@@ -56,25 +56,34 @@
               <li class="navmenu-item">Obvious Disaster</li>
             </a>
           </ul>
-
-          <h5>Textviewer Font Changer:</h5>
-          <ul class="navmenu">
-            <li class="navmenu-item" onclick="collyviewerFontChanger('topaz')">Topaz (KS 2.x)</li>
-            <li class="navmenu-item" onclick="collyviewerFontChanger('topaz500')">
-              Topaz (KS 1.x)
-            </li>
-            <li class="navmenu-item" onclick="collyviewerFontChanger('microknight')">
-              MicroKnight
-            </li>
-            <li class="navmenu-item" onclick="collyviewerFontChanger('mosoul')">mO'sOul</li>
-            <li class="navmenu-item" onclick="collyviewerFontChanger('pot-noodle')">P0T-NOoDLE</li>
-            <li class="navmenu-item" onclick="collyviewerFontChanger('b-strict')">B-Strict</li>
-            <li class="navmenu-item" onclick="collyviewerFontChanger('b-struct')">B-Struct</li>
-          </ul>
         </nav>
 
         <div id="main-content-collyviewer" class="column">
           <h2 id="colly-name">OoPS! No CoLLY LoADED!</h2>
+
+          <button class="navmenu-item" onclick="collyviewerFontChanger('topaz')">
+            Topaz (KS 2.x)
+          </button>
+          <button class="navmenu-item" onclick="collyviewerFontChanger('topaz500')">
+            Topaz (KS 1.x)
+          </button>
+          <button class="navmenu-item" onclick="collyviewerFontChanger('microknight')">
+            MicroKnight
+          </button>
+          <button class="navmenu-item" onclick="collyviewerFontChanger('mosoul')">mO'sOul</button>
+
+          <br />
+
+          <button class="navmenu-item" onclick="collyviewerFontChanger('pot-noodle')">
+            P0T-NOoDLE
+          </button>
+          <button class="navmenu-item" onclick="collyviewerFontChanger('b-strict')">
+            B-Strict
+          </button>
+          <button class="navmenu-item" onclick="collyviewerFontChanger('b-struct')">
+            B-Struct
+          </button>
+
           <div id="colly-content"></div>
         </div>
       </div>
