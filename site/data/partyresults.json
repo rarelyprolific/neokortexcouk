@@ -11,6 +11,10 @@
     {
       "name": "Amstrad ASCII Compo 2023",
       "url": "collyviewer.html?collyname=amstrad_compo.ans&lineheight=100"
+    },
+    {
+      "name": "On Track 2023",
+      "url": "collyviewer.html?collyname=OnTrack_2023_Results.txt&lineheight=125&extendedcolumns=4&displaymode=ced"
     }
   ]
 }
