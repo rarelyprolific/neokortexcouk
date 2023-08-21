@@ -1,9 +1,4 @@
-// Initialises any required JavaScript at page load
-// (..until we get something more structured in here)
 window.onload = function () {
-  buildPartyResultsMenuItems();
-  buildReleasesMenuItems();
-
   // Runs the collyviewer (..if we're on a page which includes the collyviewer)
   if (typeof displayCollyModemStyle !== "undefined") {
     displayCollyModemStyle();
@@ -14,6 +9,10 @@ window.onload = function () {
   // Displays a new neokortex logo and random fing each the page is loaded
   nkxWebApp.setRandomNeokortexLogo();
   nkxWebApp.setTheRandomFing();
+
+  // Load menus
+  nkxWebApp.buildLinksMenu("data/partyresults.json", "partyresults", "partyresults-menu-items");
+  nkxWebApp.buildReleasesMenu("data/releases.json", "releases", "releases-menu-items");
 
   // Populates the version number and moniker in the page footer.
   document.getElementById("version-number").innerHTML = nkxWebApp.getVersionNumber();
@@ -78,47 +77,38 @@ class NkxWebApp {
         }
       });
   }
-}
 
-// Switches the Amiga display font on the old ASCII viewer
-function changeAsciiFont(fontFamily) {
-  document.getElementsByTagName("pre")[0].style.fontFamily = fontFamily;
-}
+  buildLinksMenu(sourceJson, collectionName, targetListElement) {
+    return fetch(sourceJson)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        let menu = document.getElementById(targetListElement);
 
-// Builds the party releases section of the navigation menu (a cheap and nasty way because I got fed
-// up tweaking multiple files but didn't want to pull in excess stuff just to do a HTML include!)
-function buildPartyResultsMenuItems() {
-  return fetch("data/partyresults.json")
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      let menu = document.getElementById("partyresults-menu-items");
+        for (const item of data[collectionName]) {
+          menu.insertAdjacentHTML(
+            "afterbegin",
+            `<a href=${item.url}><li class="navmenu-item">${item.name}</li></a>`
+          );
+        }
+      });
+  }
 
-      for (const item of data.partyresults) {
-        menu.insertAdjacentHTML(
-          "afterbegin",
-          `<a href=${item.url}><li class="navmenu-item">${item.name}</li></a>`
-        );
-      }
-    });
-}
+  buildReleasesMenu(sourceJson, collectionName, targetListElement) {
+    return fetch(sourceJson)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        let menu = document.getElementById(targetListElement);
 
-// Builds the releases section of the navigation menu (a cheap and nasty way because I got fed
-// up tweaking multiple files but didn't want to pull in excess stuff just to do a HTML include!)
-function buildReleasesMenuItems() {
-  return fetch("data/releases.json")
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      let menu = document.getElementById("releases-menu-items");
-
-      for (const item of data.releases) {
-        menu.insertAdjacentHTML(
-          "afterbegin",
-          `<a href=${item.url}><li class="navmenu-item">${item.name}<br />[${item.type}] ${item.date}</li></a>`
-        );
-      }
-    });
+        for (const item of data[collectionName]) {
+          menu.insertAdjacentHTML(
+            "afterbegin",
+            `<a href=${item.url}><li class="navmenu-item">${item.name}<br />[${item.type}] ${item.date}</li></a>`
+          );
+        }
+      });
+  }
 }
