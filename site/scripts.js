@@ -58,22 +58,27 @@ class NkxWebApp {
       .then(function (data) {
         let randomFings = data.randomFings;
         let numberOfFings = randomFings.length;
-        let aTrulyRandomFing = Math.floor(Math.random() * numberOfFings);
+        let aTrulyRandomFing = randomFings[Math.floor(Math.random() * numberOfFings)];
 
-        // Set the "random fing" text
-        document.getElementById("random-fing").textContent = randomFings[aTrulyRandomFing].text;
+        let randomFingElement = document.getElementById("random-fing");
 
-        // Sets the title attribute if the "random fing" is related to a demoscene production
-        if (randomFings[aTrulyRandomFing].production != undefined) {
-          document.getElementById("random-fing").title =
-            randomFings[aTrulyRandomFing].production +
-            " by " +
-            randomFings[aTrulyRandomFing].releasedBy +
-            " [" +
-            randomFings[aTrulyRandomFing].platform +
-            " " +
-            randomFings[aTrulyRandomFing].releaseYear +
-            "]";
+        if (aTrulyRandomFing.production == undefined) {
+          // Builds a simple text "random fing".
+          randomFingElement.insertAdjacentHTML(
+            "afterbegin",
+            `<span>${aTrulyRandomFing.text}</span>`
+          );
+        } else {
+          // Builds the title attibute and external links if this "random fing" is a demoscene production.
+          const productionFing = `${aTrulyRandomFing.production} by ${aTrulyRandomFing.releasedBy} [${aTrulyRandomFing.platform} ${aTrulyRandomFing.releaseYear}]`;
+
+          randomFingElement.insertAdjacentHTML(
+            "afterbegin",
+            `<span title="${productionFing}">${aTrulyRandomFing.text}</span> ` +
+              `<a href="https://www.demozoo.org/${aTrulyRandomFing.demozooUrl}" target="_blank">[demozoo]</a> ` +
+              `<a href="https://www.pouet.net/${aTrulyRandomFing.pouetUrl}" target="_blank">[pouet]</a> ` +
+              `<a href="https://www.youtube.com/${aTrulyRandomFing.youTubeUrl}" target="_blank">[youtube]</a>`
+          );
         }
       });
   }

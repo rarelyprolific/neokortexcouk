@@ -6,8 +6,8 @@
       "releasedBy": "Kefrens",
       "releaseYear": 1993,
       "platform": "Amiga",
-      "pouetUrl": "prod.php?which=1483",
       "demozooUrl": "productions/142",
+      "pouetUrl": "prod.php?which=1483",
       "youTubeUrl": "watch?v=jziQBWQxvok"
     },
     {
@@ -15,7 +15,10 @@
       "production": "Melrose Space",
       "releasedBy": "Three State",
       "releaseYear": 1999,
-      "platform": "Windows"
+      "platform": "Windows",
+      "demozooUrl": "productions/74",
+      "pouetUrl": "prod.php?which=162",
+      "youTubeUrl": "watch?v=Qrl4c5bbYwE"
     },
     {
       "text": "Insert disk one into DF0: and disk two into DF1:"
@@ -25,21 +28,30 @@
       "production": "Mental Hangover",
       "releasedBy": "Scoopex",
       "releaseYear": 1990,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/22186",
+      "pouetUrl": "prod.php?which=1472",
+      "youTubeUrl": "watch?v=gTHsNgAqoAI"
     },
     {
       "text": "cut copy paste repeat",
       "production": "Ziphead",
       "releasedBy": "Fairlight and CNCD",
       "releaseYear": 2015,
-      "platform": "Windows"
+      "platform": "Windows",
+      "demozooUrl": "productions/136314",
+      "pouetUrl": "prod.php?which=65400",
+      "youTubeUrl": "watch?v=Y_lm0cZOkeA"
     },
     {
       "text": "Yeaaah!!! You got it at last......",
       "production": "Shock Megademo",
       "releasedBy": "ESI",
       "releaseYear": 1992,
-      "platform": "ZX Spectrum"
+      "platform": "ZX Spectrum",
+      "demozooUrl": "productions/13714",
+      "pouetUrl": "prod.php?which=2120",
+      "youTubeUrl": "watch?v=w0rFw88ex4c"
     },
     {
       "text": "R Tape loading error, 0:1"
@@ -49,7 +61,10 @@
       "production": "Aliens Ate My Demomaker",
       "releasedBy": "MFX and Kewlers",
       "releaseYear": 2005,
-      "platform": "Windows"
+      "platform": "Windows",
+      "demozooUrl": "productions/55180",
+      "pouetUrl": "prod.php?which=15088",
+      "youTubeUrl": "watch?v=qtAljEL6A28"
     },
     {
       "text": "Not a DOS disk in device DF0"
@@ -59,14 +74,20 @@
       "production": "Arte",
       "releasedBy": "Sanity",
       "releaseYear": 1993,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/5784",
+      "pouetUrl": "prod.php?which=1477",
+      "youTubeUrl": "watch?v=p9qPBYdXJKs"
     },
     {
       "text": "Of course, seen before on Amiga",
       "production": "Bloody Memories 2.01",
       "releasedBy": "TRSI",
       "releaseYear": 2007,
-      "platform": "Xbox 360"
+      "platform": "Xbox 360",
+      "demozooUrl": "productions/4263",
+      "pouetUrl": "prod.php?which=30305",
+      "youTubeUrl": "watch?v=BVzQDKuRCG8"
     },
     {
       "text": "Press play on tape"
@@ -76,84 +97,120 @@
       "production": "Twisted",
       "releasedBy": "Polka Brothers",
       "releaseYear": 1994,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/6998",
+      "pouetUrl": "prod.php?which=8130",
+      "youTubeUrl": "watch?v=MvAjByajynw"
     },
     {
       "text": "...And they call these bozos, who conveniently show up, with a fake electronic lightshow...",
       "production": "Fake Elektronik Lightshow",
       "releasedBy": "Ephidrena",
       "releaseYear": 2003,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/8093",
+      "pouetUrl": "prod.php?which=9549",
+      "youTubeUrl": "watch?v=nz0MSqndTT0"
     },
     {
       "text": "A world not of my making. Yet a world of my design.",
       "production": "Chaos Theory",
       "releasedBy": "Conspiracy",
       "releaseYear": 2006,
-      "platform": "Windows"
+      "platform": "Windows",
+      "demozooUrl": "productions/10096",
+      "pouetUrl": "prod.php?which=25774",
+      "youTubeUrl": "watch?v=gfk5Mqy3gpA"
     },
     {
       "text": "Computers aren't the thing, they are the thing that gets us to the thing.",
       "production": "Subside",
       "releasedBy": "Unique",
       "releaseYear": 2016,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/155232",
+      "pouetUrl": "prod.php?which=67140",
+      "youTubeUrl": "watch?v=Sq4dT1-avew"
     },
     {
       "text": "In your thoughts would be slowed down.. Come on!",
       "production": "Jesus on E's",
       "releasedBy": "LSD",
       "releaseYear": 1992,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/112329",
+      "pouetUrl": "prod.php?which=5265",
+      "youTubeUrl": "watch?v=zxuX23HIdt8"
     },
     {
       "text": "I know there's something burning over there.",
       "production": "Jesus on E's",
       "releasedBy": "LSD",
       "releaseYear": 1992,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/112329",
+      "pouetUrl": "prod.php?which=5265",
+      "youTubeUrl": "watch?v=zxuX23HIdt8"
     },
     {
       "text": "Won't you rock with me one time!",
       "production": "Jesus on E's",
       "releasedBy": "LSD",
       "releaseYear": 1992,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/112329",
+      "pouetUrl": "prod.php?which=5265",
+      "youTubeUrl": "watch?v=zxuX23HIdt8"
     },
     {
       "text": "This the alterman I can't go for it.",
       "production": "Jesus on E's",
       "releasedBy": "LSD",
       "releaseYear": 1992,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/112329",
+      "pouetUrl": "prod.php?which=5265",
+      "youTubeUrl": "watch?v=zxuX23HIdt8"
     },
     {
       "text": "Hit it hard and keep you hyper.",
       "production": "Jesus on E's",
       "releasedBy": "LSD",
       "releaseYear": 1992,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/112329",
+      "pouetUrl": "prod.php?which=5265",
+      "youTubeUrl": "watch?v=zxuX23HIdt8"
     },
     {
       "text": "...what ya need is something stronger...",
       "production": "Mayday Resistance",
       "releasedBy": "Adict",
       "releaseYear": 1992,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/5329",
+      "pouetUrl": "prod.php?which=8690",
+      "youTubeUrl": "watch?v=66a2gO4XtO8"
     },
     {
       "text": "Moment of terror is the beginning of life.",
       "production": "Mayday Resistance",
       "releasedBy": "Adict",
       "releaseYear": 1992,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/5329",
+      "pouetUrl": "prod.php?which=8690",
+      "youTubeUrl": "watch?v=66a2gO4XtO8"
     },
     {
       "text": "Are you dizzy yet?",
       "production": "Retina Burn One",
       "releasedBy": "Dimension X",
       "releaseYear": 1993,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/241125",
+      "pouetUrl": "prod.php?which=18585",
+      "youTubeUrl": "watch?v=iNK2OC5_sFw"
     },
     {
       "text": "Guru Meditation #00000025.65045338"
@@ -163,28 +220,40 @@
       "production": "Misery Dentro 2",
       "releasedBy": "Masque of TRSI",
       "releaseYear": 1993,
-      "platform": "Amiga"
+      "platform": "Amiga",
+      "demozooUrl": "productions/8969",
+      "pouetUrl": "prod.php?which=3191",
+      "youTubeUrl": "watch?v=Btutdv0IhLk"
     },
     {
       "text": "1990 called and want its plasma back",
       "production": "Rivalry",
       "releasedBy": "Bonzai, Censor Design, Fairlight, Genesis Project, Offence",
       "releaseYear": 2019,
-      "platform": "C64"
+      "platform": "C64",
+      "demozooUrl": "productions/202489",
+      "pouetUrl": "prod.php?which=81014",
+      "youTubeUrl": "watch?v=_RMv2fmArnk"
     },
     {
       "text": "THIS IS *NOT* A SNES DEMO",
       "production": "MD-NICCC (remix of STNICCC2000)",
       "releasedBy": "Titan",
       "releaseYear": 2019,
-      "platform": "Sega Megadrive"
+      "platform": "Sega Megadrive",
+      "demozooUrl": "productions/202487",
+      "pouetUrl": "prod.php?which=81027",
+      "youTubeUrl": "watch?v=LcT1XIrklhQ"
     },
     {
-      "text": "I missed it so I didn't actually know but you told me, so now I do know",
-      "production": "What happens when you step away from the Revision stream!",
-      "releasedBy": "FuZioN of Neokortex",
-      "releaseYear": 2022,
-      "platform": "Twitter"
+      "text": "Is this how you normally behave? Or did you leave your brain at home?",
+      "production": "The Drunk Desert Demo",
+      "releasedBy": "Mutant Frog Productions of Paradox",
+      "releaseYear": 1990,
+      "platform": "Amiga",
+      "demozooUrl": "productions/125207",
+      "pouetUrl": "prod.php?which=4428",
+      "youTubeUrl": "watch?v=mM7uX9LeIEI"
     }
   ]
 }
