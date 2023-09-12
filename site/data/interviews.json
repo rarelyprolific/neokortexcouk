@@ -1,0 +1,20 @@
+{
+  "interviews": [
+    {
+      "name": "Darkus",
+      "url": "darkus.html"
+    },
+    {
+      "name": "Freak / NFA",
+      "url": "freaknfa.html"
+    },
+    {
+      "name": "Majic Mushroom",
+      "url": "majicm.html"
+    },
+    {
+      "name": "Obvious Disaster",
+      "url": "obviousdisaster.html"
+    }
+  ]
+}

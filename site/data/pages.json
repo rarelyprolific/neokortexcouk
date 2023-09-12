@@ -1,0 +1,12 @@
+{
+  "pages": [
+    {
+      "name": "About and Memberlist",
+      "url": "about.html"
+    },
+    {
+      "name": "News and Announcements",
+      "url": "index.html"
+    }
+  ]
+}

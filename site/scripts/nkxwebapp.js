@@ -11,8 +11,10 @@ window.onload = function () {
   nkxWebApp.setTheRandomFing();
 
   // Load menus
+  nkxWebApp.buildLinksMenu("data/pages.json", "pages", "pages-menu-items");
   nkxWebApp.buildLinksMenu("data/partyresults.json", "partyresults", "partyresults-menu-items");
   nkxWebApp.buildReleasesMenu("data/releases.json", "releases", "releases-menu-items");
+  nkxWebApp.buildLinksMenu("data/interviews.json", "interviews", "interviews-menu-items");
 
   // Populates the version number and moniker in the page footer.
   document.getElementById("version-number").innerHTML = nkxWebApp.getVersionNumber();
