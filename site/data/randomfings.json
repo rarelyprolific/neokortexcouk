@@ -340,6 +340,26 @@
       "demozooUrl": "productions/6746",
       "pouetUrl": "prod.php?which=3038",
       "youTubeUrl": "watch?v=whzTRp6aV_I"
+    },
+    {
+      "text": "One Year Later...",
+      "production": "Misery Dentro 2",
+      "releasedBy": "Masque of TRSI",
+      "releaseYear": 1993,
+      "platform": "Amiga",
+      "demozooUrl": "productions/8969",
+      "pouetUrl": "prod.php?which=3191",
+      "youTubeUrl": "watch?v=Btutdv0IhLk"
+    },
+    {
+      "text": "Wouldn't your CGA be cooler",
+      "production": "Area 5150",
+      "releasedBy": "CRTC and Hornet",
+      "releaseYear": 2022,
+      "platform": "MS-DOS",
+      "demozooUrl": "productions/311767",
+      "pouetUrl": "prod.php?which=91938",
+      "youTubeUrl": "watch?v=fWDxdoRTZPc"
     }
   ]
 }
