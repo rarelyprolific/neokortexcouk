@@ -1,16 +1,28 @@
 {
   "partyresults": [
     {
-      "name": "Nova 2023",
-      "url": "collyviewer.html?collyname=Nova23_Results.txt&lineheight=600&extendedcolumns=1&displaymode=ced"
+      "name": "Amstrad ASCII Compo 2023",
+      "url": "collyviewer.html?collyname=amstrad_compo.ans&lineheight=100"
+    },
+    {
+      "name": "Decrunch 2024",
+      "url": "collyviewer.html?collyname=Decrunch24-Results.txt&lineheight=70&displaymode=ced"
+    },
+    {
+      "name": "Edison 2022",
+      "url": "collyviewer.html?collyname=Edison_2022_Results.txt&lineheight=380&displaymode=ced"
     },
     {
       "name": "Edison 2023",
       "url": "collyviewer.html?collyname=Edison_2023_Results.txt&lineheight=360&displaymode=ced"
     },
     {
-      "name": "Amstrad ASCII Compo 2023",
-      "url": "collyviewer.html?collyname=amstrad_compo.ans&lineheight=100"
+      "name": "Nova 2023",
+      "url": "collyviewer.html?collyname=Nova23_Results.txt&lineheight=600&extendedcolumns=1&displaymode=ced"
+    },
+    {
+      "name": "Nova 2024",
+      "url": "collyviewer.html?collyname=Nova24_Results.txt&lineheight=1210&displaymode=ced"
     },
     {
       "name": "On Track 2023",
