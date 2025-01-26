@@ -93,11 +93,17 @@ class NkxWebApp {
       .then(function (data) {
         let menu = document.getElementById(targetListElement);
 
+        // Builds menu items using the SAME ordering as in the JSON file.
         for (const item of data[collectionName]) {
-          menu.insertAdjacentHTML(
-            "afterbegin",
-            `<a href=${item.url}><li class="navmenu-item">${item.name}</li></a>`
-          );
+          let link = document.createElement("a");
+          link.href = item.url;
+
+          let listItem = document.createElement("li");
+          listItem.className = "navmenu-item";
+          listItem.textContent = item.name;
+
+          link.appendChild(listItem);
+          menu.appendChild(link);
         }
       });
   }
@@ -110,6 +116,7 @@ class NkxWebApp {
       .then(function (data) {
         let menu = document.getElementById(targetListElement);
 
+        // Builds release menu items using the REVERSE of the ordering in the JSON file (i.e. newest releases first!).
         for (const item of data[collectionName]) {
           menu.insertAdjacentHTML(
             "afterbegin",
