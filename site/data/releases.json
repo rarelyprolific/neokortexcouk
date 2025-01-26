@@ -145,10 +145,34 @@
       "url": "collyviewer.html?collyname=k33pin'-iT-oldskoOL.ans&lineheight=150"
     },
     {
+      "name": "Metal-Impact-BBS-LoGO-PacK.ans",
+      "type": "ANSI",
+      "date": "24/07/2023",
+      "url": "collyviewer.html?collyname=Metal-Impact-BBS-LoGO-PacK.ans&lineheight=140"
+    },
+    {
       "name": "moto_pow3r.ans",
       "type": "ANSI",
       "date": "29/07/2023",
       "url": "collyviewer.html?collyname=moto_pow3r.ans&lineheight=100"
+    },
+    {
+      "name": "fzn-flash-dance-party.txt",
+      "type": "ASCII",
+      "date": "28/10/2023",
+      "url": "collyviewer.html?collyname=fzn-flash-dance-party.txt&lineheight=400&displaymode=ced"
+    },
+    {
+      "name": "R32BBS_Xmas_Logo_Pack.ans",
+      "type": "ASCII",
+      "date": "06/12/2023",
+      "url": "collyviewer.html?collyname=R32BBS_Xmas_Logo_Pack.ans&lineheight=130"
+    },
+    {
+      "name": "R32-BBS-bABY.ans",
+      "type": "ASCII",
+      "date": "15/06/2024",
+      "url": "collyviewer.html?collyname=R32-BBS-bABY.ans&lineheight=260"
     }
   ]
 }
