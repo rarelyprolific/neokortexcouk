@@ -4,6 +4,8 @@ This is the website for the neokortex team in the demoscene. It is hosted at <ht
 
 ## TODOs and possible future enhancements
 
+- **Build tool:** Think about using Vite?
+
 - **Add measure ASCII/ANSI logic:** We currently set a `lineheight` parameter
   to manually configure the height of each ASCII/ANSI file for ansilove display.
   Can we calculate this automatically?
