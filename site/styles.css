@@ -137,16 +137,14 @@ img.right-aligned-image {
 
 .rainbow-bar {
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    red 0%,
-    yellow 15%,
-    lime 30%,
-    cyan 50%,
-    blue 65%,
-    magenta 80%,
-    red 100%
-  );
+  background: linear-gradient(90deg,
+      red 0%,
+      yellow 15%,
+      lime 30%,
+      cyan 50%,
+      blue 65%,
+      magenta 80%,
+      red 100%);
   background-size: 200%;
   animation: moveGradient 2s linear infinite;
 }
@@ -155,6 +153,7 @@ img.right-aligned-image {
   0% {
     background-position: 0% 0%;
   }
+
   100% {
     background-position: -200% 0%;
   }

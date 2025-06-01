@@ -12,7 +12,7 @@ window.onload = function () {
 
   // Load menus
   nkxWebApp.buildLinksMenu("data/pages.json", "pages", "pages-menu-items");
-  nkxWebApp.buildLinksMenu("data/partyresults.json", "partyresults", "partyresults-menu-items");
+  nkxWebApp.buildPartyResultsMenu("data/partyresults.json", "partyresults", "partyresults-menu-items");
   nkxWebApp.buildReleasesMenu("data/releases.json", "releases", "releases-menu-items");
   nkxWebApp.buildLinksMenu("data/interviews.json", "interviews", "interviews-menu-items");
 
@@ -77,9 +77,9 @@ class NkxWebApp {
           randomFingElement.insertAdjacentHTML(
             "afterbegin",
             `<span title="${productionFing}">${aTrulyRandomFing.text}</span> ` +
-              `<a href="https://www.demozoo.org/${aTrulyRandomFing.demozooUrl}" target="_blank">[demozoo]</a> ` +
-              `<a href="https://www.pouet.net/${aTrulyRandomFing.pouetUrl}" target="_blank">[pouet]</a> ` +
-              `<a href="https://www.youtube.com/${aTrulyRandomFing.youTubeUrl}" target="_blank">[youtube]</a>`
+            `<a href="https://www.demozoo.org/${aTrulyRandomFing.demozooUrl}" target="_blank">[demozoo]</a> ` +
+            `<a href="https://www.pouet.net/${aTrulyRandomFing.pouetUrl}" target="_blank">[pouet]</a> ` +
+            `<a href="https://www.youtube.com/${aTrulyRandomFing.youTubeUrl}" target="_blank">[youtube]</a>`
           );
         }
       });
@@ -105,6 +105,44 @@ class NkxWebApp {
           link.appendChild(listItem);
           menu.appendChild(link);
         }
+      });
+  }
+
+  buildPartyResultsMenu(sourceJson, collectionName, targetListElement) {
+    return fetch(sourceJson)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        let menu = document.getElementById(targetListElement);
+
+        // Group by partyname
+        const groups = {};
+        for (const item of data[collectionName]) {
+          if (!groups[item.partyname]) {
+            groups[item.partyname] = [];
+          }
+          groups[item.partyname].push(item);
+        }
+
+        // For each group, sort by year descending and render
+        Object.keys(groups).sort().forEach(partyname => {
+          // Sort group by year descending
+          groups[partyname].sort((a, b) => b.year - a.year);
+
+          // Add each item
+          for (const item of groups[partyname]) {
+            let link = document.createElement("a");
+            link.href = item.url;
+
+            let listItem = document.createElement("li");
+            listItem.className = "navmenu-item";
+            listItem.textContent = `${item.partyname} ${item.year}`;
+
+            link.appendChild(listItem);
+            menu.appendChild(link);
+          }
+        });
       });
   }
 
