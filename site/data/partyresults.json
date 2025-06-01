@@ -9,12 +9,32 @@
       "url": "collyviewer.html?collyname=Decrunch24-Results.txt&lineheight=70&displaymode=ced"
     },
     {
+      "name": "Demosplash 2022",
+      "url": "collyviewer.html?collyname=demosplash22-results.txt&lineheight=195&extendedcolumns=6&displaymode=ced"
+    },
+    {
       "name": "Edison 2022",
       "url": "collyviewer.html?collyname=Edison_2022_Results.txt&lineheight=380&displaymode=ced"
     },
     {
       "name": "Edison 2023",
       "url": "collyviewer.html?collyname=Edison_2023_Results.txt&lineheight=360&displaymode=ced"
+    },
+    {
+      "name": "Flashparty 2022",
+      "url": "collyviewer.html?collyname=flashparty-2022-results.txt&lineheight=370&extendedcolumns=12&displaymode=ced"
+    },
+    {
+      "name": "Flashparty 2023",
+      "url": "collyviewer.html?collyname=flashparty-2023-results.txt&lineheight=360&displaymode=ced"
+    },
+    {
+      "name": "Forever 2023",
+      "url": "collyviewer.html?collyname=forever2023-results.txt&lineheight=375&extendedcolumns=12&displaymode=ced"
+    },
+    {
+      "name": "Nova 2022",
+      "url": "collyviewer.html?collyname=Nova22_Results.txt&lineheight=330&extendedcolumns=3&displaymode=ced"
     },
     {
       "name": "Nova 2023",
