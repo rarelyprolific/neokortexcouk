@@ -173,6 +173,24 @@
       "type": "ASCII",
       "date": "15/06/2024",
       "url": "collyviewer.html?collyname=R32-BBS-bABY.ans&lineheight=260"
+    },
+    {
+      "name": "retro32-ansi.ans",
+      "type": "ANSI",
+      "date": "25/06/2025",
+      "url": "collyviewer.html?collyname=retro32-ansi.ans&lineheight=700"
+    },
+    {
+      "name": "fzn-tboo-nova25.txt",
+      "type": "ASCII",
+      "date": "25/06/2025",
+      "url": "collyviewer.html?collyname=fzn-tboo-nova25.txt&lineheight=1520"
+    },
+    {
+      "name": "fzn-tboo.txt",
+      "type": "ASCII",
+      "date": "25/06/2025",
+      "url": "collyviewer.html?collyname=fzn-tboo.txt&lineheight=3680"
     }
   ]
 }

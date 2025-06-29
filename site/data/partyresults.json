@@ -56,6 +56,11 @@
       "url": "collyviewer.html?collyname=Nova24_Results.txt&lineheight=1210&displaymode=ced"
     },
     {
+      "partyname": "Nova",
+      "year": 2025,
+      "url": "collyviewer.html?collyname=Nova25_Results.txt&lineheight=460&displaymode=ced"
+    },
+    {
       "partyname": "On Track",
       "year": 2023,
       "url": "collyviewer.html?collyname=OnTrack_2023_Results.txt&lineheight=125&extendedcolumns=4&displaymode=ced"
