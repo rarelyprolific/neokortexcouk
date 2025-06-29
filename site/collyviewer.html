@@ -1,111 +1,116 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>neokortex.co.uk</title>
 
-    <link rel="stylesheet" href="libs/milligram.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <title>neokortex.co.uk</title>
 
-  <body>
-    <div id="logo-section">
-      <img id="neokortex-logo" alt="neokortex-logo" />
-    </div>
+  <link rel="stylesheet" href="libs/milligram.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <div id="header-section">
-      <div class="rainbow-bar"></div>
-      <p id="random-fing" class="textbar"></p>
-      <div class="rainbow-bar"></div>
+<body>
+  <div id="logo-section">
+    <img id="neokortex-logo" alt="neokortex-logo" />
+  </div>
+
+  <div id="header-section">
+    <div class="rainbow-bar"></div>
+    <p id="random-fing" class="textbar"></p>
+    <div class="rainbow-bar"></div>
+  </div>
+
+  <br />
+
+  <div class="container">
+    <div class="row">
+      <nav class="column column-25">
+        <ul class="navmenu" id="pages-menu-items"></ul>
+
+        <h5>Party Results:</h5>
+        <ul class="navmenu" id="partyresults-menu-items"></ul>
+
+        <h5>Releases:</h5>
+        <ul class="navmenu" id="releases-menu-items"></ul>
+
+        <h5>Scene Interviews:</h5>
+        <ul class="navmenu" id="interviews-menu-items"></ul>
+      </nav>
+
+      <div id="main-content-collyviewer" class="column">
+        <h2 id="colly-name">OoPS! No CoLLY LoADED!</h2>
+
+        <button class="navmenu-item" onclick="collyviewerFontChanger('topaz')">
+          Topaz (KS 2.x)
+        </button>
+        <button class="navmenu-item" onclick="collyviewerFontChanger('topaz500')">
+          Topaz (KS 1.x)
+        </button>
+        <button class="navmenu-item" onclick="collyviewerFontChanger('microknight')">
+          MicroKnight
+        </button>
+        <button class="navmenu-item" onclick="collyviewerFontChanger('mosoul')">mO'sOul</button>
+
+        <br />
+
+        <button class="navmenu-item" onclick="collyviewerFontChanger('pot-noodle')">
+          P0T-NOoDLE
+        </button>
+        <button class="navmenu-item" onclick="collyviewerFontChanger('b-strict')">
+          B-Strict
+        </button>
+        <button class="navmenu-item" onclick="collyviewerFontChanger('b-struct')">
+          B-Struct
+        </button>
+        <button class="navmenu-item" onclick="collyviewerFontChanger('80x25')">
+          80x25 [PC]
+        </button>
+
+        <div id="colly-content"></div>
+      </div>
     </div>
 
     <br />
 
-    <div class="container">
-      <div class="row">
-        <nav class="column column-25">
-          <ul class="navmenu" id="pages-menu-items"></ul>
+    <div class="row">
+      <div class="column column-50">
+        <a href="https://www.facebook.com/neokortex.demoscene.7" target="_blank">
+          <img src="img/f_logo_RGB-Hex-Blue_512.png" class="icon-image" />
+        </a>
 
-          <h5>Party Results:</h5>
-          <ul class="navmenu" id="partyresults-menu-items"></ul>
+        <a href="https://twitter.com/nkxdemoscene" target="_blank">
+          <img src="img/Twitter_Logo_WhiteOnBlue.png" class="icon-image" />
+        </a>
 
-          <h5>Releases:</h5>
-          <ul class="navmenu" id="releases-menu-items"></ul>
+        <a href="https://demozoo.org/groups/90368" target="_blank">
+          <img src="img/demozoo_title.png" class="icon-image" />
+        </a>
 
-          <h5>Scene Interviews:</h5>
-          <ul class="navmenu" id="interviews-menu-items"></ul>
-        </nav>
-
-        <div id="main-content-collyviewer" class="column">
-          <h2 id="colly-name">OoPS! No CoLLY LoADED!</h2>
-
-          <button class="navmenu-item" onclick="collyviewerFontChanger('topaz')">
-            Topaz (KS 2.x)
-          </button>
-          <button class="navmenu-item" onclick="collyviewerFontChanger('topaz500')">
-            Topaz (KS 1.x)
-          </button>
-          <button class="navmenu-item" onclick="collyviewerFontChanger('microknight')">
-            MicroKnight
-          </button>
-          <button class="navmenu-item" onclick="collyviewerFontChanger('mosoul')">mO'sOul</button>
-
-          <br />
-
-          <button class="navmenu-item" onclick="collyviewerFontChanger('pot-noodle')">
-            P0T-NOoDLE
-          </button>
-          <button class="navmenu-item" onclick="collyviewerFontChanger('b-strict')">
-            B-Strict
-          </button>
-          <button class="navmenu-item" onclick="collyviewerFontChanger('b-struct')">
-            B-Struct
-          </button>
-
-          <div id="colly-content"></div>
-        </div>
+        <a href='mailto:fuzion@neokortex.co.uk?subject="STuFF"' target="_blank">
+          <img src="img/email-icon.png" class="icon-image" />
+        </a>
       </div>
 
-      <br />
+      <div class="column column-25">
+        <p id="third-party-credits">
+          The use of
+          <a href="https://milligram.io/" target="_blank">Milligram</a> and
+          <a href="http://ansilove.github.io/ansilove.js" target="_blank">AnsiLoveJS</a>
+          helped to create this site!
+        </p>
+      </div>
 
-      <div class="row">
-        <div class="column column-50">
-          <a href="https://www.facebook.com/neokortex.demoscene.7" target="_blank">
-            <img src="img/f_logo_RGB-Hex-Blue_512.png" class="icon-image" />
-          </a>
-
-          <a href="https://twitter.com/nkxdemoscene" target="_blank">
-            <img src="img/Twitter_Logo_WhiteOnBlue.png" class="icon-image" />
-          </a>
-
-          <a href="https://demozoo.org/groups/90368" target="_blank">
-            <img src="img/demozoo_title.png" class="icon-image" />
-          </a>
-
-          <a href='mailto:fuzion@neokortex.co.uk?subject="STuFF"' target="_blank">
-            <img src="img/email-icon.png" class="icon-image" />
-          </a>
-        </div>
-
-        <div class="column column-25">
-          <p id="third-party-credits">
-            The use of
-            <a href="https://milligram.io/" target="_blank">Milligram</a> and
-            <a href="http://ansilove.github.io/ansilove.js" target="_blank">AnsiLoveJS</a>
-            helped to create this site!
-          </p>
-        </div>
-
-        <div class="column column-25">
-          <p id="version-identifier">
-            <span id="version-number"></span><br /><span id="version-moniker"></span>
-          </p>
-        </div>
+      <div class="column column-25">
+        <p id="version-identifier">
+          <span id="version-number"></span><br /><span id="version-moniker"></span>
+        </p>
       </div>
     </div>
+  </div>
 
-    <script src="libs/ansilove-rpfork.js"></script>
-    <script src="scripts/collyviewer.js"></script>
-    <script src="scripts/nkxwebapp.js"></script>
-  </body>
+  <script src="libs/ansilove-rpfork.js"></script>
+  <script src="scripts/collyviewer.js"></script>
+  <script src="scripts/nkxwebapp.js"></script>
+</body>
+
 </html>
