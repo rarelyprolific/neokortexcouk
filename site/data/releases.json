@@ -4,43 +4,43 @@
       "name": "N0VA_19.txt",
       "type": "ASCII",
       "date": "22/06/2019",
-      "url": "collyviewer.html?collyname=nkx-nova19.txt&lineheight=506&extendedcolumns=40&displaymode=ced"
+      "url": "collyviewer.html?collyname=nkx-nova19.txt&extendedcolumns=40&displaymode=ced"
     },
     {
       "name": "nkx-versus9-votesheet",
       "type": "ASCII",
       "date": "06/07/2019",
-      "url": "collyviewer.html?collyname=nkx-versus9-votesheet.txt&lineheight=149&displaymode=ced"
+      "url": "collyviewer.html?collyname=nkx-versus9-votesheet.txt&displaymode=ced"
     },
     {
       "name": "nkx-evoke2o19.txt",
       "type": "ASCII",
       "date": "18/08/2019",
-      "url": "collyviewer.html?collyname=nkx-evoke2o19.txt&lineheight=25&displaymode=ced"
+      "url": "collyviewer.html?collyname=nkx-evoke2o19.txt&displaymode=ced"
     },
     {
       "name": "DLine_GeoMetriX.ans",
       "type": "ANSI",
       "date": "04/10/2019",
-      "url": "collyviewer.html?collyname=DLine_GeoMetriX.ans.txt&lineheight=62"
+      "url": "collyviewer.html?collyname=DLine_GeoMetriX.ans.txt&nocrlf"
     },
     {
       "name": "nkx-rev2o2o.txt",
       "type": "ASCII",
       "date": "11/04/2020",
-      "url": "collyviewer.html?collyname=nkx-rev2o2o.txt&lineheight=1010&extendedcolumns=25&displaymode=ced"
+      "url": "collyviewer.html?collyname=nkx-rev2o2o.txt&extendedcolumns=25&displaymode=ced"
     },
     {
       "name": "nOVA-pARTY-nETWORK.ans",
       "type": "ANSI",
       "date": "21/06/2020",
-      "url": "collyviewer.html?collyname=nOVA-pARTY-nETWORK.ans&lineheight=382"
+      "url": "collyviewer.html?collyname=nOVA-pARTY-nETWORK.ans"
     },
     {
       "name": "goodbye_solskogen.ans",
       "type": "ANSI",
       "date": "11/07/2020",
-      "url": "collyviewer.html?collyname=goodbye_solskogen.ans&lineheight=47"
+      "url": "collyviewer.html?collyname=goodbye_solskogen.ans"
     },
     {
       "name": "Solskogen 2020 Logo",
@@ -52,7 +52,7 @@
       "name": "b1nary_ra1n.ans",
       "type": "ANSI",
       "date": "15/08/2020",
-      "url": "collyviewer.html?collyname=b1nary_ra1n.ans&lineheight=27"
+      "url": "collyviewer.html?collyname=b1nary_ra1n.ans&nocrlf"
     },
     {
       "name": "NKXmastro 2o2o",
@@ -64,133 +64,133 @@
       "name": "mERRY fORNDATA x-MAS",
       "type": "ANSI",
       "date": "19/12/2020",
-      "url": "collyviewer.html?collyname=nkx_merry_fdata_xmas.ans&lineheight=175"
+      "url": "collyviewer.html?collyname=nkx_merry_fdata_xmas.ans"
     },
     {
       "name": "nkx_together.ans",
       "type": "ANSI",
       "date": "03/04/2021",
-      "url": "collyviewer.html?collyname=nkx_together.ans&lineheight=505&disableblink=true"
+      "url": "collyviewer.html?collyname=nkx_together.ans&disableblink=true"
     },
     {
       "name": "nkx_txt_art_4ever.txt",
       "type": "ASCII",
       "date": "04/09/2021",
-      "url": "collyviewer.html?collyname=nkx_txt_art_4ever.txt&lineheight=102&extendedcolumns=40&displaymode=ced"
+      "url": "collyviewer.html?collyname=nkx_txt_art_4ever.txt&extendedcolumns=40&displaymode=ced"
     },
     {
       "name": "nkx_dline_reunited.ans",
       "type": "ANSI",
       "date": "09/10/2021",
-      "url": "collyviewer.html?collyname=nkx_dline_reunited.ans&lineheight=215"
+      "url": "collyviewer.html?collyname=nkx_dline_reunited.ans"
     },
     {
       "name": "fzn_ansi_logo_colly_1.ans",
       "type": "ANSI",
       "date": "16/04/2022",
-      "url": "collyviewer.html?collyname=fzn_ansi_logo_colly_1.ans&lineheight=502"
+      "url": "collyviewer.html?collyname=fzn_ansi_logo_colly_1.ans"
     },
     {
       "name": "nkx_welcome_to_the_jungle.ans",
       "type": "ANSI",
       "date": "22/07/2022",
-      "url": "collyviewer.html?collyname=nkx_welcome_to_the_jungle.ans&lineheight=100"
+      "url": "collyviewer.html?collyname=nkx_welcome_to_the_jungle.ans"
     },
     {
       "name": "nkx_geo_vector_overload.ans",
       "type": "ANSI",
       "date": "06/08/2022",
-      "url": "collyviewer.html?collyname=nkx_geo_vector_overload.ans&lineheight=30"
+      "url": "collyviewer.html?collyname=nkx_geo_vector_overload.ans"
     },
     {
       "name": "nkx_midnight_in_bud.ans",
       "type": "ANSI",
       "date": "13/08/2022",
-      "url": "collyviewer.html?collyname=nkx_midnight_in_bud.ans&lineheight=215"
+      "url": "collyviewer.html?collyname=nkx_midnight_in_bud.ans&nocrlf"
     },
     {
       "name": "nkx_kung_fu_afro_twins.txt",
       "type": "ASCII",
       "date": "01/10/2022",
-      "url": "collyviewer.html?collyname=nkx_kung_fu_afro_twins.txt&lineheight=270&extendedcolumns=30&displaymode=ced"
+      "url": "collyviewer.html?collyname=nkx_kung_fu_afro_twins.txt&extendedcolumns=30&displaymode=ced"
     },
     {
       "name": "nkx_splash_party.ans",
       "type": "ANSI",
       "date": "19/11/2022",
-      "url": "collyviewer.html?collyname=nkx_splash_party.ans&lineheight=100"
+      "url": "collyviewer.html?collyname=nkx_splash_party.ans"
     },
     {
       "name": "SPAG2.txt",
       "type": "ASCII",
       "date": "23/03/2023",
-      "url": "collyviewer.html?collyname=SPAG2.txt&lineheight=95&extendedcolumns=13&displaymode=ced"
+      "url": "collyviewer.html?collyname=SPAG2.txt&extendedcolumns=13&displaymode=ced"
     },
     {
       "name": "SPAG2.ans",
       "type": "ANSI",
       "date": "23/03/2023",
-      "url": "collyviewer.html?collyname=SPAG2.ans&lineheight=100"
+      "url": "collyviewer.html?collyname=SPAG2.ans"
     },
     {
       "name": "nkx_bk_2_da_ewerk.txt",
       "type": "ASCII",
       "date": "09/04/2023",
-      "url": "collyviewer.html?collyname=nkx_bk_2_da_ewerk.txt&lineheight=275&extendedcolumns=1&displaymode=ced"
+      "url": "collyviewer.html?collyname=nkx_bk_2_da_ewerk.txt&extendedcolumns=1&displaymode=ced"
     },
     {
       "name": "k33pin'-iT-oldskoOL.ans",
       "type": "ANSI",
       "date": "24/06/2023",
-      "url": "collyviewer.html?collyname=k33pin'-iT-oldskoOL.ans&lineheight=150"
+      "url": "collyviewer.html?collyname=k33pin'-iT-oldskoOL.ans"
     },
     {
       "name": "Metal-Impact-BBS-LoGO-PacK.ans",
       "type": "ANSI",
       "date": "24/07/2023",
-      "url": "collyviewer.html?collyname=Metal-Impact-BBS-LoGO-PacK.ans&lineheight=140"
+      "url": "collyviewer.html?collyname=Metal-Impact-BBS-LoGO-PacK.ans"
     },
     {
       "name": "moto_pow3r.ans",
       "type": "ANSI",
       "date": "29/07/2023",
-      "url": "collyviewer.html?collyname=moto_pow3r.ans&lineheight=100"
+      "url": "collyviewer.html?collyname=moto_pow3r.ans"
     },
     {
       "name": "fzn-flash-dance-party.txt",
       "type": "ASCII",
       "date": "28/10/2023",
-      "url": "collyviewer.html?collyname=fzn-flash-dance-party.txt&lineheight=400&displaymode=ced"
+      "url": "collyviewer.html?collyname=fzn-flash-dance-party.txt&displaymode=ced"
     },
     {
       "name": "R32BBS_Xmas_Logo_Pack.ans",
       "type": "ASCII",
       "date": "06/12/2023",
-      "url": "collyviewer.html?collyname=R32BBS_Xmas_Logo_Pack.ans&lineheight=130"
+      "url": "collyviewer.html?collyname=R32BBS_Xmas_Logo_Pack.ans"
     },
     {
       "name": "R32-BBS-bABY.ans",
       "type": "ASCII",
       "date": "15/06/2024",
-      "url": "collyviewer.html?collyname=R32-BBS-bABY.ans&lineheight=260"
+      "url": "collyviewer.html?collyname=R32-BBS-bABY.ans"
     },
     {
       "name": "retro32-ansi.ans",
       "type": "ANSI",
       "date": "25/06/2025",
-      "url": "collyviewer.html?collyname=retro32-ansi.ans&lineheight=700&font=80x25"
+      "url": "collyviewer.html?collyname=retro32-ansi.ans&font=80x25&nocrlf"
     },
     {
       "name": "fzn-tboo-nova25.txt",
       "type": "ASCII",
       "date": "25/06/2025",
-      "url": "collyviewer.html?collyname=fzn-tboo-nova25.txt&lineheight=1520"
+      "url": "collyviewer.html?collyname=fzn-tboo-nova25.txt"
     },
     {
       "name": "fzn-tboo.txt",
       "type": "ASCII",
       "date": "25/06/2025",
-      "url": "collyviewer.html?collyname=fzn-tboo.txt&lineheight=3680"
+      "url": "collyviewer.html?collyname=fzn-tboo.txt"
     }
   ]
 }

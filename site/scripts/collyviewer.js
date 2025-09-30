@@ -6,7 +6,6 @@ async function displayCollyModemStyle() {
   var querystringParams = new URLSearchParams(window.location.search);
   var collyName = querystringParams.get("collyname");
   var displayMode = querystringParams.get("displaymode");
-  var lineHeight = Number(querystringParams.get("lineheight"));
   var extendedColumns = Number(querystringParams.get("extendedcolumns"));
   var disableblink = querystringParams.get("disableblink");
   var font = querystringParams.get("font");
@@ -14,14 +13,8 @@ async function displayCollyModemStyle() {
   // Set the base directory to load collys from
   var collyPath = "collys/" + collyName;
 
-  // Count the number of lines in the colly if lineheight isn't specified in the querystring
-  // (Still need to figure out the line counter function for some types of ANSI files which are not CRLF line endings.)
-  if (lineHeight > 0) {
-    var lineCount = lineHeight;
-  } else {
-    var lineCount = await countLinesFromFileAsync(collyPath);
-  }
-
+  // Count the number of lines in the colly
+  var lineCount = await countLinesFromFileAsync(collyPath);
 
   // Load and display the colly
   var controller = AnsiLove.animate(
@@ -62,17 +55,18 @@ function collyviewerFontChanger(font) {
 
 // Counts the number of lines in the colly to calculate the height.
 async function countLinesFromFileAsync(pathToColly) {
+  const querystringParams = new URLSearchParams(window.location.search);
+
   const response = await fetch(pathToColly);
 
   const text = await response.text();
   const lines = text.split(/\r?\n/);
 
-  // Standard text file with CRLF line endings
-  if (lines.length > 1) {
-    return lines.length;
-  }
-
   // Weird ANSI on a single line without line endings so assume the
   // lines are 80 characters wide (..and hope it works out! :p).
-  return text.length / 80;
+  if (querystringParams.has("nocrlf")) {
+    return text.length / 80;
+  }
+
+  return lines.length;
 }

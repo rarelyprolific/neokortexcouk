@@ -3,7 +3,7 @@
     {
       "partyname": "Amstrad ASCII Compo",
       "year": 2023,
-      "url": "collyviewer.html?collyname=amstrad_compo.ans"
+      "url": "collyviewer.html?collyname=amstrad_compo.ans&nocrlf"
     },
     {
       "partyname": "Decrunch",
