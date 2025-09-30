@@ -67,5 +67,12 @@ async function countLinesFromFileAsync(pathToColly) {
   const text = await response.text();
   const lines = text.split(/\r?\n/);
 
-  return lines.length;
+  // Standard text file with CRLF line endings
+  if (lines.length > 1) {
+    return lines.length;
+  }
+
+  // Weird ANSI on a single line without line endings so assume the
+  // lines are 80 characters wide (..and hope it works out! :p).
+  return text.length / 80;
 }
