@@ -60,13 +60,14 @@ async function countLinesFromFileAsync(pathToColly) {
   const response = await fetch(pathToColly);
 
   const text = await response.text();
-  const lines = text.split(/\r?\n/);
 
-  // Weird ANSI on a single line without line endings so assume the
-  // lines are 80 characters wide (..and hope it works out! :p).
-  if (querystringParams.has("nocrlf")) {
-    return text.length / 80;
+  // Files with standard CRLF line endings so use linelength querystring parameter.
+  // (Usually needed for weird ANSI files!)
+  if (querystringParams.has("linelength")) {
+    return text.length / querystringParams.get("linelength");
   }
+
+  const lines = text.split(/\r?\n/);
 
   return lines.length;
 }

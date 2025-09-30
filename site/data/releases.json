@@ -22,7 +22,7 @@
       "name": "DLine_GeoMetriX.ans",
       "type": "ANSI",
       "date": "04/10/2019",
-      "url": "collyviewer.html?collyname=DLine_GeoMetriX.ans.txt&nocrlf"
+      "url": "collyviewer.html?collyname=DLine_GeoMetriX.ans.txt&linelength=120"
     },
     {
       "name": "nkx-rev2o2o.txt",
@@ -52,7 +52,7 @@
       "name": "b1nary_ra1n.ans",
       "type": "ANSI",
       "date": "15/08/2020",
-      "url": "collyviewer.html?collyname=b1nary_ra1n.ans&nocrlf"
+      "url": "collyviewer.html?collyname=b1nary_ra1n.ans&linelength=80"
     },
     {
       "name": "NKXmastro 2o2o",
@@ -106,7 +106,7 @@
       "name": "nkx_midnight_in_bud.ans",
       "type": "ANSI",
       "date": "13/08/2022",
-      "url": "collyviewer.html?collyname=nkx_midnight_in_bud.ans&nocrlf"
+      "url": "collyviewer.html?collyname=nkx_midnight_in_bud.ans&linelength=120"
     },
     {
       "name": "nkx_kung_fu_afro_twins.txt",
@@ -178,7 +178,7 @@
       "name": "retro32-ansi.ans",
       "type": "ANSI",
       "date": "25/06/2025",
-      "url": "collyviewer.html?collyname=retro32-ansi.ans&font=80x25&nocrlf"
+      "url": "collyviewer.html?collyname=retro32-ansi.ans&font=80x25&linelength=220"
     },
     {
       "name": "fzn-tboo-nova25.txt",
