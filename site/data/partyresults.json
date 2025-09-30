@@ -8,52 +8,52 @@
     {
       "partyname": "Decrunch",
       "year": 2024,
-      "url": "collyviewer.html?collyname=Decrunch24-Results.txt&lineheight=70&displaymode=ced"
+      "url": "collyviewer.html?collyname=Decrunch24-Results.txt&displaymode=ced"
     },
     {
       "partyname": "Demosplash",
       "year": 2022,
-      "url": "collyviewer.html?collyname=demosplash22-results.txt&lineheight=195&extendedcolumns=6&displaymode=ced"
+      "url": "collyviewer.html?collyname=demosplash22-results.txt&extendedcolumns=6&displaymode=ced"
     },
     {
       "partyname": "Edison",
       "year": 2022,
-      "url": "collyviewer.html?collyname=Edison_2022_Results.txt&lineheight=380&displaymode=ced"
+      "url": "collyviewer.html?collyname=Edison_2022_Results.txt&displaymode=ced"
     },
     {
       "partyname": "Edison",
       "year": 2023,
-      "url": "collyviewer.html?collyname=Edison_2023_Results.txt&lineheight=360&displaymode=ced"
+      "url": "collyviewer.html?collyname=Edison_2023_Results.txt&displaymode=ced"
     },
     {
       "partyname": "Flashparty",
       "year": 2022,
-      "url": "collyviewer.html?collyname=flashparty-2022-results.txt&lineheight=370&extendedcolumns=12&displaymode=ced"
+      "url": "collyviewer.html?collyname=flashparty-2022-results.txt&extendedcolumns=12&displaymode=ced"
     },
     {
       "partyname": "Flashparty",
       "year": 2023,
-      "url": "collyviewer.html?collyname=flashparty-2023-results.txt&lineheight=360&displaymode=ced"
+      "url": "collyviewer.html?collyname=flashparty-2023-results.txt&displaymode=ced"
     },
     {
       "partyname": "Forever",
       "year": 2023,
-      "url": "collyviewer.html?collyname=forever2023-results.txt&lineheight=375&extendedcolumns=12&displaymode=ced"
+      "url": "collyviewer.html?collyname=forever2023-results.txt&extendedcolumns=12&displaymode=ced"
     },
     {
       "partyname": "Nova",
       "year": 2022,
-      "url": "collyviewer.html?collyname=Nova22_Results.txt&lineheight=330&extendedcolumns=3&displaymode=ced"
+      "url": "collyviewer.html?collyname=Nova22_Results.txt&extendedcolumns=3&displaymode=ced"
     },
     {
       "partyname": "Nova",
       "year": 2023,
-      "url": "collyviewer.html?collyname=Nova23_Results.txt&lineheight=600&extendedcolumns=1&displaymode=ced"
+      "url": "collyviewer.html?collyname=Nova23_Results.txt&extendedcolumns=1&displaymode=ced"
     },
     {
       "partyname": "Nova",
       "year": 2024,
-      "url": "collyviewer.html?collyname=Nova24_Results.txt&lineheight=1210&displaymode=ced"
+      "url": "collyviewer.html?collyname=Nova24_Results.txt&displaymode=ced"
     },
     {
       "partyname": "Nova",
@@ -63,7 +63,7 @@
     {
       "partyname": "On Track",
       "year": 2023,
-      "url": "collyviewer.html?collyname=OnTrack_2023_Results.txt&lineheight=125&extendedcolumns=4&displaymode=ced"
+      "url": "collyviewer.html?collyname=OnTrack_2023_Results.txt&extendedcolumns=4&displaymode=ced"
     }
   ]
 }

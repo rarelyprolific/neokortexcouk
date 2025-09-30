@@ -165,9 +165,9 @@
      `:::::::'   '::::::'  '::::::'  '::::::'  ':::::::::::'        
      
 
-           o1.   132pts   Stranger Things 1986			Katoyama
-           o2.   114pts   Evil Goat                             hyperunknown / Noice
-           o3.   98pts    Tree of Life                          Boldyreva Veronika
+           o1.   132pts   Stranger Things 1986      Katoyama
+           o2.   114pts   Evil Goat                 hyperunknown / Noice
+           o3.   98pts    Tree of Life              Boldyreva Veronika
 
 
                                                               _  _
@@ -243,21 +243,21 @@
      `:::::::'   '::::::'  '::::::'  '::::::'  ':::::::::::'        
      
 
-      o1.  219pts   1992			     Danko/FairLight & Jogeir Liljedahl
-      o2.  218pts   Revisioned & Confused                               vedder / iNSANE
-      o3.  185pts   Moskow funnygames.	                           Vandelay / Kramerica
-      o4.  177pts   Monkey Love		                                         gr0gg0
-      o5.  165pts   Concrete Skeletons	                                        fsFreak
-      o5.  165pts   Jungle Attack		                            qlint / FCK
-      o7.  164pts   Get down, behave 		                                   krdn
-      o8.  156pts   Bach to Basics		                         Amiga Junglism
-      o9.  153pts   Pegasi 51 (1996)	                                           wasp
-      1o.  152pts   growing up			                                 jor-el
-      11.  145pts   Goatnight Story		   hyperunknown/Noice ft. Emily R Davey
-      12.  133pts   Welcome 2 the Bungle	            vilcans / Five Finger Punch
-      13.   98pts   sad_Song		      	                          trumpetrespas
-      14.   86pts   Unimpressive 2channel piece of crap	                      M0onLight
-      15.   70pts   30sec without listening	                              DuckLight
+      o1.  219pts   1992                     Danko/FairLight & Jogeir Liljedahl
+      o2.  218pts   Revisioned & Confused                       vedder / iNSANE
+      o3.  185pts   Moskow funnygames.                     Vandelay / Kramerica
+      o4.  177pts   Monkey Love                                          gr0gg0
+      o5.  165pts   Concrete Skeletons                                  fsFreak
+      o5.  165pts   Jungle Attack                                   qlint / FCK
+      o7.  164pts   Get down, behave                                       krdn
+      o8.  156pts   Bach to Basics                               Amiga Junglism
+      o9.  153pts   Pegasi 51 (1996)                                       wasp
+      1o.  152pts   growing up                                           jor-el
+      11.  145pts   Goatnight Story        hyperunknown/Noice ft. Emily R Davey
+      12.  133pts   Welcome 2 the Bungle            vilcans / Five Finger Punch
+      13.   98pts   sad_Song                                      trumpetrespas
+      14.   86pts   Unimpressive 2channel piece of crap               M0onLight
+      15.   70pts   30sec without listening                           DuckLight
 
 
                                                               _  _
