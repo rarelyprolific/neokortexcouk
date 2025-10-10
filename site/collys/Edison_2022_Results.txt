@@ -114,7 +114,7 @@
      o4.  115pts   Cracked Nuts		              Muzio
      o5.   98pts   Three Little Loops 	              zworp
      o6.   97pts   Bridge of the eyes	              XenoDuck
-     o7.   77pts   Uppsala by Gummib√•t 2019           M0onLight
+     o7.   77pts   Uppsala by GummibÂt 2019           M0onLight
      o8.   73pts   Fantomen i digitaldjungeln         A-line
      o9.   44pts   PUNISHED KAVVAN                    GRUNT
 
@@ -198,7 +198,7 @@
 
            o1.   166pts   Some of my friends			Goto80
            o2.   162pts   Teeth					Burre / TAONGAD
-           o3.   145pts   Svans√•ng				Frost
+           o3.   145pts   SvansÂng				Frost
            o4.   141pts   Fantomen Barbro			gr0gg0
            o5.   136pts   Salty Cracker				jab / Artline Designs
            o6.   116pts   Eyes of Fury				Mikael & ND / Pretzel Logic
@@ -277,7 +277,7 @@
            o7.   191pts   Time to Shine (Edison Edit)		L00nyTeK
            o8.   185pts   Mending your spirit			Slaze / Desire^Defiance^Starz
            o9.   185pts   Oh Know				Radiant
-           10.   176pts   Att kv√§va en banan			zantac / FCK ^ Smeuch
+           10.   176pts   Att kv‰va en banan			zantac / FCK ^ Smeuch
            11.   155pts   Premature Abruption			Druttis
            12.   151pts   Grammofonen				Kwarf
            13.   143pts   Jubokko				hakushi
@@ -287,9 +287,9 @@
            17.   136pts   Soekarna				qlint
            18.   132pts   Munk Hunk Funk by the Frogs and SkunksVulkanoman
            19.   128pts   new york basics (edison edit)		fugl
-           20.   127pts   √Öhman Break				xinux
+           20.   127pts   ≈hman Break				xinux
            21.   124pts   Ugh					micken
-           22.   116pts   Insert Game Here			T√¥Bach / Slipstream
+           22.   116pts   Insert Game Here			TÙBach / Slipstream
 
 
                                                               _  _

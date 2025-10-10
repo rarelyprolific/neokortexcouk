@@ -80,7 +80,7 @@
    -=>> [vOXEL aRT] <<=-
  
     1.  #03   135 pts    Memento Mori - littlebitspace / mistigris
-    2.  #02   120 pts    Ni mÃ¡s ni menos - Yeipi Martins
+    2.  #02   120 pts    Ni más ni menos - Yeipi Martins
     3.  #01   108 pts    La Tercera - berdyx - HPM
                                                                             .
    ::..............................  ::  ..................................::
@@ -90,12 +90,12 @@
     1.  #09   117 pts    Fin de una Era - Chernobyl Apple
     2.  #01   114 pts    Buenos Aires - Anechina Guadalupe
     3.  #07   105 pts    Fuentes - checs / HPM
-    4.  #11   102 pts    Cabra MagnÃ©tica - Velu Moly
+    4.  #11   102 pts    Cabra Magnética - Velu Moly
     5.  #04   101 pts    Adapa es rescatado - Yeipi Martins
     6.  #03    99 pts    Choices - Nacho Correa Belino
-    7.  #06    97 pts    ET apoya la donaciÃ³n de Ã³rganos - Espi y Howard
+    7.  #06    97 pts    ET apoya la donación de órganos - Espi y Howard
                            Scott Warshaw
-    8.  #05    83 pts    HÃ¤mÃ¤hÃ¤kkikissa - Brittle / MoonShine
+    8.  #05    83 pts    Hämähäkkikissa - Brittle / MoonShine
     9.  #02    79 pts    The good meat -
                            yogib33r/Delicious-Amigans^Flush^NoExtra^X-Men^Vir
                            tal-Motion!
@@ -166,8 +166,8 @@
 
    -=>> [tEXT aRT aSCII pC] <<=-
 
-    1.  #01   111 pts    Mapa de CÃ©lulas Cybercirujas - checs / Hermanas
-                           del Perro MagnÃ©tico
+    1.  #01   111 pts    Mapa de Células Cybercirujas - checs / Hermanas
+                           del Perro Magnético
     2.  #02   104 pts    Once - Algorias / Horology
     3.  #03    92 pts    Patagonia Rebelde - Arlequin / HPM^Impure^PVM
     4.  #04    91 pts    ARTTYFACTO - checs / HPM
@@ -195,10 +195,10 @@
 
    -=>> [tEXT aRT eXTENDED] <<=-
    
-    1.  #02   133 pts    MÃ¡s de 30.000 - checs / Hermanas del Perro
-                           MagnÃ©tico
+    1.  #02   133 pts    Más de 30.000 - checs / Hermanas del Perro
+                           Magnético
         #04   133 pts    Bouncing heart - Wim Dewijngaert
-    3.  #03   130 pts    MiktlÄntÄ“kwtli - rnbw
+    3.  #03   130 pts    Miktl?nt?kwtli - rnbw
     4.  #01   117 pts    Elige tu propio Gauchoide: Final inedito - deadguy
 
    ::..............................  ::  ..................................::
@@ -222,7 +222,7 @@
 
    -=>> [tEXT aRT tELETEXT] <<=-
    
-    1.  #03   152 pts    sinÃ©ad - Losso / AttentionWhore
+    1.  #03   152 pts    sinéad - Losso / AttentionWhore
     2.  #04   140 pts    Ghost in a Box - illarterate (Mistigris)
     3.  #01   131 pts    Veiled Woods - littlebitspace / mistigris
     4.  #02   113 pts    Matterhorn - Atonal Osprey
@@ -232,26 +232,26 @@
 
    -=>> [wILD / aNIMATION] <<=-
    
-    1.  #14   204 pts    665 [VHS] ðŸ’€ - Digital Coffin
+    1.  #14   204 pts    665 [VHS] ?? - Digital Coffin
     2.  #02   180 pts    Hipp zum happ - Goto80 & BLDZR
     3.  #16   175 pts    VideoDreams - Fernando Montes Vera
     4.  #05   170 pts    4 borrachos y 4 mosquitos en el bar - Juanito
                            Bringas
         #06   170 pts    Duelo a muerte con cuchillos - Ber Sektor
-    6.  #09   164 pts    Â© 2074 Axtorâ„¢ Espeluzland & The Big SÃ†Z - Â©
-                           2074 Axtorâ„¢ Espeluzland & The Big SÃ†Z
+    6.  #09   164 pts    © 2074 Axtor? Espeluzland & The Big SÆZ - ©
+                           2074 Axtor? Espeluzland & The Big SÆZ
     7.  #01   139 pts    Night Walk - littlebitspace / mistigris
     8.  #04   135 pts    MOSTRO CYBERCIRUJA - Marce Rapallo
         #13   135 pts    Who is Hellmalware? - Hellmalware
-   10.  #03   132 pts    Traje facturas, estÃ¡n todos invitados - jeenio /
-                           inÃ©rciaProductions
-   11.  #08   130 pts    TÃºnel loco - Juxni
-   12.  #07   125 pts    ç©ºããƒ©ã‚¤ãƒ–ãƒ©ãƒª - CyberSoul y Hellmalware
+   10.  #03   132 pts    Traje facturas, están todos invitados - jeenio /
+                           inérciaProductions
+   11.  #08   130 pts    Túnel loco - Juxni
+   12.  #07   125 pts    ??????? - CyberSoul y Hellmalware
         #15   125 pts    Dreaming Copies - Chernobyl Apple
    14.  #17   120 pts    Pulsar Star - Francisco Piaggio
    15.  #11   113 pts    Caminantes del Cielo - checs & Ras / HPM
    16.  #10   105 pts    Wavefield Signature - 4ujlxywa - Javier Bilatz
-        #12   105 pts    Uno siempre elige con quÃ© dejarse invadir - Mutte
+        #12   105 pts    Uno siempre elige con qué dejarse invadir - Mutte
                            Video
 
    ::..............................  ::  ..................................::
@@ -291,7 +291,7 @@
     6.  #03   153 pts    Patagonia Intro - PATAGONIA
     7.  #05   149 pts    Raster bars blending w/plasma addiction HF - MP
                            SOFT/HOKUTO FORCE
-    8.  #01   134 pts    Arte PoÃ©tica Testicular - The Codeblasters
+    8.  #01   134 pts    Arte Poética Testicular - The Codeblasters
     9.  #04   123 pts    The striped Mandelbrot 6502 1K - Vol Litwr
    10.  #08   108 pts    30nvtro - yago
 
