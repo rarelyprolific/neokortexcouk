@@ -40,6 +40,12 @@ a:hover {
   border-radius: 10px;
 }
 
+.navmenu-item-selected {
+  font-weight: bold;
+  background-color: #4c1d97;
+  border-radius: 10px;
+}
+
 .navmenu-item:hover {
   color: black;
   background-color: #dddddd;

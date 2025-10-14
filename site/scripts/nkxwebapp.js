@@ -113,7 +113,7 @@ class NkxWebApp {
       .then(function (response) {
         return response.json();
       })
-      .then(function (data) {
+      .then(data => {
         let menu = document.getElementById(targetListElement);
 
         // Group by partyname
@@ -136,7 +136,13 @@ class NkxWebApp {
             link.href = item.url;
 
             let listItem = document.createElement("li");
-            listItem.className = "navmenu-item";
+
+            if (this.isCurrentlyDisplayed(item)) {
+              listItem.className = "navmenu-item-selected";
+            } else {
+              listItem.className = "navmenu-item";
+            }
+
             listItem.textContent = `${item.partyname} ${item.year}`;
 
             link.appendChild(listItem);
@@ -151,16 +157,28 @@ class NkxWebApp {
       .then(function (response) {
         return response.json();
       })
-      .then(function (data) {
+      .then(data => {
         let menu = document.getElementById(targetListElement);
 
         // Builds release menu items using the REVERSE of the ordering in the JSON file (i.e. newest releases first!).
         for (const item of data[collectionName]) {
+          let className = "";
+
+          if (this.isCurrentlyDisplayed(item)) {
+            className = "navmenu-item-selected";
+          } else {
+            className = "navmenu-item"
+          }
+
           menu.insertAdjacentHTML(
             "afterbegin",
-            `<a href=${item.url}><li class="navmenu-item">${item.name}<br />[${item.type}] ${item.date}</li></a>`
+            `<a href=${item.url}><li class=${className}>${item.name}<br />[${item.type}] ${item.date}</li></a>`
           );
         }
       });
+  }
+
+  isCurrentlyDisplayed(item) {
+    return window.location.search === item.url.substring(item.url.lastIndexOf('?'));
   }
 }
