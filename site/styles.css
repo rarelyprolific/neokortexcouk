@@ -37,6 +37,7 @@ a:hover {
 
 .navmenu-item {
   background-color: #131313;
+  border: 0.1rem solid #4c1d97;
   border-radius: 10px;
 }
 
