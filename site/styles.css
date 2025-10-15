@@ -18,6 +18,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.release-section-title {
+  text-align: center;
+  border-style: dashed;
+  border-width: 1px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
 .navmenu {
   list-style-type: none;
   text-align: center;

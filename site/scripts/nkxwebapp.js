@@ -13,7 +13,7 @@ window.onload = function () {
   // Load menus
   nkxWebApp.buildLinksMenu("data/pages.json", "pages", "pages-menu-items");
   nkxWebApp.buildPartyResultsMenu("data/partyresults.json", "partyresults", "partyresults-menu-items");
-  nkxWebApp.buildReleasesMenu("data/releases.json", "releases", "releases-menu-items");
+  nkxWebApp.buildReleasesMenus("data/releases.json", "releases", "releases-menu-items");
   nkxWebApp.buildLinksMenu("data/interviews.json", "interviews", "interviews-menu-items");
 
   // Populates the version number and moniker in the page footer.
@@ -152,7 +152,7 @@ class NkxWebApp {
       });
   }
 
-  buildReleasesMenu(sourceJson, collectionName, targetListElement) {
+  buildReleasesMenus(sourceJson, collectionName, targetListElement) {
     return fetch(sourceJson)
       .then(function (response) {
         return response.json();
@@ -160,22 +160,33 @@ class NkxWebApp {
       .then(data => {
         let menu = document.getElementById(targetListElement);
 
-        // Builds release menu items using the REVERSE of the ordering in the JSON file (i.e. newest releases first!).
-        for (const item of data[collectionName]) {
-          let className = "";
-
-          if (this.isCurrentlyDisplayed(item)) {
-            className = "navmenu-item-selected";
-          } else {
-            className = "navmenu-item"
-          }
-
-          menu.insertAdjacentHTML(
-            "afterbegin",
-            `<a href=${item.url}><li class=${className}>${item.name}<br />[${item.type}] ${item.date}</li></a>`
-          );
-        }
+        this.buildReleasesSubSection(data, menu, "GFXTRO");
+        this.buildReleasesSubSection(data, menu, "INTRO");
+        this.buildReleasesSubSection(data, menu, "ANSI");
+        this.buildReleasesSubSection(data, menu, "ASCII");
       });
+  }
+
+  buildReleasesSubSection(data, menu, releaseType) {
+    let filteredData = data.releases.filter(item => item.type === releaseType);
+
+    // Builds release menu items using the REVERSE of the ordering in the JSON file (i.e. newest releases first!).
+    for (const item of filteredData) {
+      let className = "";
+
+      if (this.isCurrentlyDisplayed(item)) {
+        className = "navmenu-item-selected";
+      } else {
+        className = "navmenu-item"
+      }
+
+      menu.insertAdjacentHTML(
+        "afterbegin",
+        `<a href=${item.url}><li class=${className}>${item.name}<br />${item.date}</li></a>`
+      );
+    }
+
+    menu.insertAdjacentHTML("afterbegin", `<div class="release-section-title">${releaseType} - ${filteredData.length}</div>`);
   }
 
   isCurrentlyDisplayed(item) {
