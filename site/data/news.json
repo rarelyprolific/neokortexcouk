@@ -15,5 +15,36 @@
         "content": [
             "Added some missing party results to the site and tidied up the menu ordering."
         ]
+    },
+    {
+        "date": "2025-01-26",
+        "title": "One year later",
+        "content": [
+            "We kinda blinked and missed 2024 with regards to site updates. But, as always, FuZioN carried on texting regardless:",
+            "- Added party results for [Decrunch 2024](collyviewer.html?collyname=Decrunch24-Results.txt&displaymode=ced), [Edison 2022](collyviewer.html?collyname=Edison_2022_Results.txt&displaymode=ced) and [Nova 2024](collyviewer.html?collyname=Nova24_Results.txt&displaymode=ced).",
+            "- Added [Metal-Impact-BBS-LoGO-PacK.ans](collyviewer.html?collyname=Metal-Impact-BBS-LoGO-PacK.ans), [fzn-flash-dance-party.txt](collyviewer.html?collyname=fzn-flash-dance-party.txt&displaymode=ced), [R32BBS-Xmas-Logo-Pack.ans](collyviewer.html?collyname=R32BBS_Xmas_Logo_Pack.ans) and [R32-BBS-bABY.ans](collyviewer.html?collyname=R32-BBS-bABY.ans) releases."
+        ]
+    },
+    {
+        "date": "2023-08-20",
+        "title": "Summer demoparty entries and site improvements",
+        "content": [
+            "Added a new section for FuZioN's part-time job of producing party result files. Also made some minor front-end and back-end improvements to the site.",
+            "Our new ANSI releases are: [k33pin'-iT-oldskoOL](collyviewer.html?collyname=k33pin'-iT-oldskoOL.ans) (for [Nova 2023](https://novaparty.org/)) and [moto_pow3r](collyviewer.html?collyname=moto_pow3r.ans) (for [Evoke 2023](https://2023.evoke.eu/))."
+        ]
+    },
+    {
+        "date": "2023-04-09",
+        "title": "What we're gonna do right here is go back!",
+        "content": [
+            "Back to the E Werk for [Revision 2023](https://2023.revision-party.net/) and another [ASCII](collyviewer.html?collyname=nkx_bk_2_da_ewerk.txt&extendedcolumns=1&displaymode=ced) by FuZioN."
+        ]
+    },
+    {
+        "date": "2023-03-05",
+        "title": "[SPAG 2](https://www.spagamiga.co.uk/) - \"Electric Boogaloo!\"",
+        "content": [
+            "Textual [ASCII](collyviewer.html?collyname=SPAG2.txt&extendedcolumns=13&displaymode=ced) and [ANSI](collyviewer.html?collyname=SPAG2.ans) invitations to the second Stamford Peterborough Amiga Group meeting: [SPAG 2 - \"Electric Boogaloo!\"](https://www.spagamiga.co.uk/)"
+        ]
     }
 ]
