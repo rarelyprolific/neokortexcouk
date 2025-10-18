@@ -46,36 +46,18 @@
       <div id="main-content" class="column">
         <h2>News and Announcements</h2>
 
-        <span class="news-date"> Sunday 29th June 2025</span>
-        <h4><a href="https://novaparty.org/" target="_blank">NOVA 2025</a> releases</h4>
+        <div id="news-app">
+          <span v-for="newsitem in news">
+            <span class="news-date">{{ newsitem.date }}</span>
+            <h4 v-html="newsitem.title"></h4>
 
-        <p>
-          Another year, another NOVA party:
-        </p>
+            <span v-for="content in newsitem.content">
+              <p v-html="content"></p>
+            </span>
 
-        <ul>
-          <li><a href="collyviewer.html?collyname=Nova25_Results.txt&displaymode=ced">NOVA 2025
-              party results</a></li>
-          <li>Retro32's ANSI compo winner: <a href="collyviewer.html?collyname=retro32-ansi.ans&font=80x25">The
-              goggles, they do
-              nothing</a> <em>(Well done Karl!)</em></li>
-          <li>FuZioN's magnum opus of an ASCII release Textual Boogaloo: <a
-              href="collyviewer.html?collyname=fzn-tboo-nova25.txt">compo version</a> and
-            <a href="collyviewer.html?collyname=fzn-tboo.txt">final release</a>
-            <em>(Your poor keyboard Darren!)</em>
-          </li>
-        </ul>
-
-        <hr />
-
-        <span class="news-date"> Sunday 1st June 2025</span>
-        <h4>Party time!</h4>
-
-        <p>
-          Added some missing party results to the site and tidied up the menu ordering.
-        </p>
-
-        <hr />
+            <hr />
+          </span>
+        </div>
 
         <span class="news-date"> Sunday 26th January 2025</span>
         <h4>One year later</h4>
@@ -471,6 +453,9 @@
   </div>
 
   <script src="scripts/nkxwebapp.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+  <script src="scripts/vuetiful-nktx-news.js"></script>
 </body>
 
 </html>

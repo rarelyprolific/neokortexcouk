@@ -1,0 +1,19 @@
+[
+    {
+        "date": "2025-06-29",
+        "title": "[NOVA 2025](https://novaparty.org/) releases",
+        "content": [
+            "Another year, another NOVA party:",
+            "- [NOVA 2025 party results](collyviewer.html?collyname=Nova25_Results.txt&displaymode=ced)",
+            "- Retro32's ANSI compo winner: [The goggles, they do nothing](collyviewer.html?collyname=retro32-ansi.ans&font=80x25) *(Well done Karl!)*",
+            "- FuZioN's magnum opus of an ASCII release Textual Boogaloo: [compo version](collyviewer.html?collyname=fzn-tboo-nova25.txt) and [final release](collyviewer.html?collyname=fzn-tboo.txt) *(Your poor keyboard Darren!)*"
+        ]
+    },
+    {
+        "date": "2025-06-01",
+        "title": "Party time!",
+        "content": [
+            "Added some missing party results to the site and tidied up the menu ordering."
+        ]
+    }
+]
