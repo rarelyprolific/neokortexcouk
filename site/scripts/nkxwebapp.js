@@ -15,21 +15,9 @@ window.onload = function () {
   nkxWebApp.buildPartyResultsMenu("data/partyresults.json", "partyresults", "partyresults-menu-items");
   nkxWebApp.buildReleasesMenus("data/releases.json", "releases", "releases-menu-items");
   nkxWebApp.buildLinksMenu("data/interviews.json", "interviews", "interviews-menu-items");
-
-  // Populates the version number and moniker in the page footer.
-  document.getElementById("version-number").innerHTML = nkxWebApp.getVersionNumber();
-  document.getElementById("version-moniker").innerHTML = nkxWebApp.getVersionMoniker();
 };
 
 class NkxWebApp {
-  getVersionNumber() {
-    return "neokortex.co.uk v1.0.3.20230820";
-  }
-
-  getVersionMoniker() {
-    return "[virtuallynojavascriptimprovements]";
-  }
-
   setRandomNeokortexLogo() {
     return fetch("data/neokortexlogos.json")
       .then(function (response) {
