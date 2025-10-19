@@ -1,20 +1,20 @@
 body {
   margin-top: 0px;
-  background-color: #2b1528;
+  background-color: #002032;
   color: white;
 }
 
 a {
   text-decoration: none;
-  color: #ff7b00;
+  color: #78ceff;
 }
 
 a:visited {
-  color: #ff7b00;
+  color: #78ceff;
 }
 
 a:hover {
-  color: #aa5200;
+  color: #0aa5ff;
   text-decoration: underline;
 }
 
@@ -45,7 +45,7 @@ a:hover {
 
 .navmenu-item {
   background-color: #131313;
-  border: 0.1rem solid #4c1d97;
+  border: 0.1rem solid #a1a1a1;
   border-radius: 10px;
 }
 
@@ -109,7 +109,7 @@ a:hover {
 }
 
 .news-date {
-  color: firebrick;
+  color: #c6a2ff;
   font-weight: bold;
 }
 
