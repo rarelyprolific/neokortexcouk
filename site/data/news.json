@@ -46,5 +46,36 @@
         "content": [
             "Textual [ASCII](collyviewer.html?collyname=SPAG2.txt&extendedcolumns=13&displaymode=ced) and [ANSI](collyviewer.html?collyname=SPAG2.ans) invitations to the second Stamford Peterborough Amiga Group meeting: [SPAG 2 - \"Electric Boogaloo!\"](https://www.spagamiga.co.uk/)"
         ]
+    },
+    {
+        "date": "2022-12-24",
+        "title": "Jus' demosplashin'",
+        "content": [
+            "An aquatic [ANSI](collyviewer.html?collyname=nkx_splash_party.ans) by FuZioN released at the [Demosplash](https://www.demosplash.org/) party in Pittsburgh, USA."
+        ]
+    },
+    {
+        "date": "2022-10-30",
+        "title": "An ANSI for Europe and an ASCII for South America",
+        "content": [
+            "FuZioN has been textmode globetrottin' again!",
+            "He did a complete [GeoMetric VecTor OverLoaD](collyviewer.html?collyname=nkx_geo_vector_overload.ans) in Germany at [Evoke](https://2022.evoke.eu/). Then roundhouse-kicked, [Da Kung Fu Afro Twins](collyviewer.html?collyname=nkx_kung_fu_afro_twins.txt&extendedcolumns=30&displaymode=ced) straight into Argentina for [Flashparty](https://flashparty.rebelion.digital/index.php?lang=en).",
+            "*Gets around a bit eh!*"
+        ]
+    },
+    {
+        "date": "2022-09-25",
+        "title": "A nocturnal South Devon ANSI joint at [NOVA 2022](https://novaparty.org/)",
+        "content": [
+            "It was dark. It was late. *(Very late! Took over a month for me to get this on the site!)*",
+            "Here is FuZioN's [Midnight in Budleigh](collyviewer.html?collyname=nkx_midnight_in_bud.ans) ANSI entry for the [NOVA 2022](https://novaparty.org/) party held in August 2022."
+        ]
+    },
+    {
+        "date": "2022-08-19",
+        "title": "Getting ANSI at [Edison 2022](https://edisonparty.com/)",
+        "content": [
+            "Not Axl Rose, just ANSI prose! Another [ANSI colly](collyviewer.html?collyname=nkx_welcome_to_the_jungle.ans) by FuZioN for the [Edison 2022](https://edisonparty.com/) data jungle party."
+        ]
     }
 ]
