@@ -77,5 +77,109 @@
         "content": [
             "Not Axl Rose, just ANSI prose! Another [ANSI colly](collyviewer.html?collyname=nkx_welcome_to_the_jungle.ans) by FuZioN for the [Edison 2022](https://edisonparty.com/) data jungle party."
         ]
+    },
+    {
+        "date": "2022-04-16",
+        "title": "Fresh ANSIs at [Revision 2022](https://2022.revision-party.net)",
+        "content": [
+            "Witness a new [ANSI colly](collyviewer.html?collyname=fzn_ansi_logo_colly_1.ans) produced by FuZioN for [Revision 2022](https://2022.revision-party.net)."
+        ]
+    },
+    {
+        "date": "2022-01-29",
+        "title": "The dual colly site backlog update",
+        "content": [
+            "A long overdue site update. Added FuZioN's [nkx-txt-art-4ever.txt](collyviewer.html?collyname=nkx_txt_art_4ever.txt&extendedcolumns=40&displaymode=ced) ASCII at [Flash Party 2021](https://flashparty.rebelion.digital) and [nkx-dline-reunited.ans](collyviewer.html?collyname=nkx_dline_reunited.ans) ANSI at [Deadline 2021](https://deadline.untergrund.net/2021/)."
+        ]
+    },
+    {
+        "date": "2021-04-04",
+        "title": "[TOGETHER](collyviewer.html?collyname=nkx_together.ans) (online) at [Revision 2021](https://2021.revision-party.net)",
+        "content": [
+            "Revision 2021. It was that demoparty which got banned from Twitch halfway through the 64KB intro competition!",
+            "This time FuZioN mixed up both ANSI and Amiga ASCII styles for his [release](collyviewer.html?collyname=nkx_together.ans)."
+        ]
+    },
+    {
+        "date": "2020-12-30",
+        "title": "That weird time between Christmas and New Year!",
+        "content": [
+            "You know the time.. Christmas has just happened, the New Year is a few days away and you have no clue what the actual day of the week is!",
+            "It's also a great time to get the neokortex site updated with our latest releases: the [fORNDATA x-MAS](collyviewer.html?collyname=nkx_merry_fdata_xmas.ans) ASCII and the [NKXmastro 2o2o](https://code.obviousdisaster.dev/nkxmastro) (our first intro!) which were slung out in quick succession just before Christmas.",
+            "<img src=\"img/nkxmastro.png\" alt=\"Alt text\" style=\"width:42%;\" /> <img src=\"img/nkxmastro-scrolly.png\" alt=\"Alt text\" style=\"width:53%;\" />"
+        ]
+    },
+    {
+        "date": "2020-08-15",
+        "title": "Rain at [Novoque](https://www.novoque.eu/)",
+        "content": [
+            "Another party.. Another ANSI. FuZioN created [b1nary_ra1n](collyviewer.html?collyname=b1nary_ra1n.ans). Any references to 'The Matrix' are purely coincidental!"
+        ]
+    },
+    {
+        "date": "2020-07-15",
+        "title": "Double trouble at [Solskogen 2020](https://www.solskogen.no/)",
+        "content": [
+            "We released a couple of entries at the final Solskogen party. FuZioN created a [farewell ANSI](collyviewer.html?collyname=goodbye_solskogen.ans) and Obvious Disaster went experimental in the logo competition by creating a real-time animated Solskogen logo. It's not a static image but it's not quite a demo. I'm calling it a [gfxtro](solskogen2020gfxtro) for now!"
+        ]
+    },
+    {
+        "date": "2020-06-21",
+        "title": "FuZioN dials into [NOVA 20](http://www.novaparty.org) with an old skool Amiga BBS themed [ANSI](collyviewer.html?collyname=nOVA-pARTY-nETWORK.ans) entry",
+        "content": [
+            "BBS's eh! They were like the web but slower, and the graphics were blocky.. Hark back to that era with a look at FuZioN's tribute ANSI which won third place in the compo at Nova 2020."
+        ]
+    },
+    {
+        "date": "2020-05-02",
+        "title": "FuZioN releases [ASCII](collyviewer.html?collyname=nkx-rev2o2o.txt&extendedcolumns=25&displaymode=ced) at [Revision Online 2020](https://2020.revision-party.net/)",
+        "content": [
+            "COVID-19 couldn't stop Revision.. **It just moved online!** It also provided the opportunity for FuZioN to enter the ASCII competition with a remote entry.. **Which he did!**",
+            "The original version of this ASCII was over 1200 lines in length. Unfortunately, it needed to be trimmed down to 1000 lines to comply with the rules of the competition."
+        ]
+    },
+    {
+        "date": "2020-03-15",
+        "title": "Minor update: Added a font switcher.",
+        "content": [
+            "When viewing ASCII and ANSI releases on the site you can now change the display font. Available fonts are shown in the **Textviewer Font Changer** section of the left-hand navigation menu when you are viewing an ASCII or ANSI."
+        ]
+    },
+    {
+        "date": "2019-10-26",
+        "title": "FuZioN goes [ANSI](collyviewer.html?collyname=DLine_GeoMetriX.ans.txt) at [Deadline 2019](https://deadline.untergrund.net/2019/)",
+        "content": [
+            "Which is great! ..But we didn't know how to make it work 'nicely' on the site here. Thankfully, with a bit of head scratching and a lot of help from [AnsiLoveJS](http://ansilove.github.io/ansilove.js) I think we've solved it!"
+        ]
+    },
+    {
+        "date": "2019-08-22",
+        "title": "FuZioN releases his third [ASCII](collyviewer.html?collyname=nkx-evoke2o19.txt&displaymode=ced) at [Evoke 2019](https://2019.evoke.eu)",
+        "content": [
+            "The only member of neokortex who releases anything *(..so far)* has released his third ASCII."
+        ]
+    },
+    {
+        "date": "2019-07-14",
+        "title": "31 seconds and we're gone for auto-sequence start",
+        "content": [
+            "The new neokortex.co.uk has been launched! Welcome to the initial version of our new site."
+        ]
+    },
+    {
+        "date": "2019-07-06",
+        "title": "FuZioN wins the [ASCII Votesheet](collyviewer.html?collyname=nkx-versus9-votesheet.txt&displaymode=ced) for Versus #9 competition at the [Edison 2019](https://edisonparty.com) demoparty",
+        "content": [
+            "We're really proud to announce that FuZioN has entered an ASCII Votesheet competition.. **and won it!**",
+            "The competition was to design an ASCII votesheet for issue nine of the Amiga (and Android) diskmag Versus produced by [Nukleus](https://nukleus.nu) and Void. Our entry [nkx-versus9-votesheet.txt](collyviewer.html?collyname=nkx-versus9-votesheet.txt&displaymode=ced) was remotely submitted to the competition at the Edison 2019 demoparty held in Stockholm, Sweden. *(We should have been there!)*"
+        ]
+    },
+    {
+        "date": "2019-06-22",
+        "title": "FuZioN releases an [ASCII](collyviewer.html?collyname=nkx-nova19.txt&extendedcolumns=40&displaymode=ced) at the [NOVA 19](http://www.novaparty.org) demoparty",
+        "content": [
+            "In an unprovoked burst of activity, FuZioN puts the rest of us to shame by actually creating a production and releasing it at a demoparty.",
+            "Our initial 'born-ascii-tro' (!) [N0VA_19.txt](collyviewer.html?collyname=nkx-nova19.txt&extendedcolumns=40&displaymode=ced) was released at the NOVA 19 party hosted in Budleigh Salterton, Devon on the south coast of England."
+        ]
     }
 ]
