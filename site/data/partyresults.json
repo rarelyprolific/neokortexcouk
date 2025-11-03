@@ -36,6 +36,11 @@
       "url": "collyviewer.html?collyname=flashparty-2023-results.txt&displaymode=ced"
     },
     {
+      "partyname": "Flashparty",
+      "year": 2025,
+      "url": "collyviewer.html?collyname=FP25-Results.txt&displaymode=ced"
+    },
+    {
       "partyname": "Forever",
       "year": 2023,
       "url": "collyviewer.html?collyname=forever2023-results.txt&extendedcolumns=12&displaymode=ced"

@@ -1,5 +1,13 @@
 [
     {
+        "date": "2025-11-03",
+        "title": "Look at what I did with the place!",
+        "content": [
+            "Given the site a few minor quality of life improvements to make it slightly more shiny than it was previously.",
+            "In other news, FuZioN has contributed the [results file](collyviewer.html?collyname=FP25-Results.txt&displaymode=ced) and another [ASCII](collyviewer.html?collyname=FP-DiGi-ArTS.txt&displaymode=ced) release for [Flash Party 2025](https://flashparty.ar/)."
+        ]
+    },
+    {
         "date": "2025-06-29",
         "title": "[NOVA 2025](https://novaparty.org/) releases",
         "content": [

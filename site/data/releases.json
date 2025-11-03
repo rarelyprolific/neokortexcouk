@@ -191,6 +191,12 @@
       "type": "ASCII",
       "date": "25/06/2025",
       "url": "collyviewer.html?collyname=fzn-tboo.txt"
+    },
+    {
+      "name": "FP-DiGi-ArTS.txt",
+      "type": "ASCII",
+      "date": "18/10/2025",
+      "url": "collyviewer.html?collyname=FP-DiGi-ArTS.txt&displaymode=ced"
     }
   ]
 }
