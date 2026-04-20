@@ -69,6 +69,11 @@
       "partyname": "On Track",
       "year": 2023,
       "url": "collyviewer.html?collyname=OnTrack_2023_Results.txt&extendedcolumns=4&displaymode=ced"
+    },
+    {
+      "partyname": "Revision",
+      "year": 2026,
+      "url": "collyviewer.html?collyname=rev26-results.txt&displaymode=ced"
     }
   ]
 }
