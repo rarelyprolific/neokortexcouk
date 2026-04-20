@@ -168,9 +168,11 @@ class NkxWebApp {
         className = "navmenu-item"
       }
 
+      let asciiArenaUrlLink = item.asciiArenaUrl ? `<br /><a href="${item.asciiArenaUrl}" class="ascii-arena-link" target="_blank">ascii arena</a>` : '';
+
       menu.insertAdjacentHTML(
         "afterbegin",
-        `<a href=${item.url}><li class=${className}>${item.name}<br />${item.date}</li></a>`
+        `<a href=${item.url}><li class=${className}>${item.name}<br />${item.date}${asciiArenaUrlLink}</li></a>`
       );
     }
 

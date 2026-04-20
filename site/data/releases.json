@@ -190,7 +190,8 @@
       "name": "fzn-tboo.txt",
       "type": "ASCII",
       "date": "25/06/2025",
-      "url": "collyviewer.html?collyname=fzn-tboo.txt"
+      "url": "collyviewer.html?collyname=fzn-tboo.txt",
+      "asciiArenaUrl": "https://www.asciiarena.se/release/fzn-tboo.txt"
     },
     {
       "name": "FP-DiGi-ArTS.txt",
