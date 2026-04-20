@@ -113,10 +113,45 @@ class NkxWebApp {
           groups[item.partyname].push(item);
         }
 
-        // For each group, sort by year descending and render
-        Object.keys(groups).sort().forEach(partyname => {
-          // Sort group by year descending
-          groups[partyname].sort((a, b) => b.year - a.year);
+        // Sort groups by lowest prominence value in each group, then alphabetically
+        const sortedGroupKeys = Object.keys(groups).sort((a, b) => {
+          const minProminenceA = Math.min(...groups[a].map(item => item.prominence ?? Infinity));
+          const minProminenceB = Math.min(...groups[b].map(item => item.prominence ?? Infinity));
+
+          if (minProminenceA !== Infinity && minProminenceB !== Infinity) {
+            return minProminenceA - minProminenceB;
+          }
+          if (minProminenceA !== Infinity) {
+            return -1;
+          }
+          if (minProminenceB !== Infinity) {
+            return 1;
+          }
+          return a.localeCompare(b);
+        });
+
+        // For each group, sort by prominence (lower first), then by year descending and render
+        sortedGroupKeys.forEach(partyname => {
+          // Sort group by prominence (ascending) first, then by year descending
+          groups[partyname].sort((a, b) => {
+            // If both have prominence, sort by prominence (ascending), then by year descending
+            if (a.prominence !== undefined && b.prominence !== undefined) {
+              if (a.prominence !== b.prominence) {
+                return a.prominence - b.prominence;
+              }
+              return b.year - a.year;
+            }
+            // If only a has prominence, a comes first
+            if (a.prominence !== undefined) {
+              return -1;
+            }
+            // If only b has prominence, b comes first
+            if (b.prominence !== undefined) {
+              return 1;
+            }
+            // Neither has prominence, sort by year descending (original behavior)
+            return b.year - a.year;
+          });
 
           // Add each item
           for (const item of groups[partyname]) {

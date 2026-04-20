@@ -48,22 +48,26 @@
     {
       "partyname": "Nova",
       "year": 2022,
-      "url": "collyviewer.html?collyname=Nova22_Results.txt&extendedcolumns=3&displaymode=ced"
+      "url": "collyviewer.html?collyname=Nova22_Results.txt&extendedcolumns=3&displaymode=ced",
+      "prominence": 2
     },
     {
       "partyname": "Nova",
       "year": 2023,
-      "url": "collyviewer.html?collyname=Nova23_Results.txt&extendedcolumns=1&displaymode=ced"
+      "url": "collyviewer.html?collyname=Nova23_Results.txt&extendedcolumns=1&displaymode=ced",
+      "prominence": 2
     },
     {
       "partyname": "Nova",
       "year": 2024,
-      "url": "collyviewer.html?collyname=Nova24_Results.txt&displaymode=ced"
+      "url": "collyviewer.html?collyname=Nova24_Results.txt&displaymode=ced",
+      "prominence": 2
     },
     {
       "partyname": "Nova",
       "year": 2025,
-      "url": "collyviewer.html?collyname=Nova25_Results.txt&displaymode=ced"
+      "url": "collyviewer.html?collyname=Nova25_Results.txt&displaymode=ced",
+      "prominence": 2
     },
     {
       "partyname": "On Track",
@@ -73,7 +77,8 @@
     {
       "partyname": "Revision",
       "year": 2026,
-      "url": "collyviewer.html?collyname=rev26-results.txt&displaymode=ced"
+      "url": "collyviewer.html?collyname=rev26-results.txt&displaymode=ced",
+      "prominence": 1
     }
   ]
 }
